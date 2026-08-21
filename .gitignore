@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+datasets/
+
+node_modules/
+.env
+
+*.pth
+*.pt
