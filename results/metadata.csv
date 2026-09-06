@@ -1,0 +1,635 @@
+question_id,image_id,question,question_type,groundtruth_answer,disaster_type,dataset_source,region,crisis_info_type,crisis_info_code,choices
+imgq-16,img-6,Is there visible road damage in the image? Answer with Yes or No.,Binary,['Yes'],landslide,medic,,situational_awareness,SA-2,
+imgq-17,img-6,What is the condition of the road? Select all that apply.,Multiple-Choice,['C'],landslide,medic,,situational_awareness,SA-2,"{'A': 'Completely intact', 'B': 'Partially damaged', 'C': 'Severely damaged', 'D': 'Blocked by water'}"
+imgq-39,img-14,Is there visible damage to the road? Answer with Yes or No.,Binary,['Yes'],landslide,medic,,situational_awareness,SA-2,
+imgq-40,img-14,What is the condition of the road? Select all that apply.,Multiple-Choice,['B' 'C'],landslide,medic,,situational_awareness,SA-2,"{'A': 'Intact', 'B': 'Cracked', 'C': 'Collapsed', 'D': 'Flooded'}"
+imgq-52,img-19,Is there traffic congestion due to the road damage? Answer with Yes or No.,Binary,['Yes'],landslide,medic,,situational_awareness,SA-4,
+imgq-53,img-19,What type of disaster is visible in the image? Select all that apply.,Multiple-Choice,['B'],landslide,medic,,situational_awareness,SA-1,"{'A': 'Flood', 'B': 'Landslide', 'C': 'Earthquake', 'D': 'Wildfire'}"
+imgq-54,img-19,What is visible near the disaster site? Select all that apply.,Multiple-Choice,['A' 'B' 'C'],landslide,medic,,situational_awareness,SA-6,"{'A': 'Vehicles', 'B': 'Debris', 'C': 'People', 'D': 'Emergency vehicles'}"
+imgq-55,img-19,What is the condition of the road? Select all that apply.,Multiple-Choice,['A'],landslide,medic,,situational_awareness,SA-4,"{'A': 'Blocked', 'B': 'Partially damaged', 'C': 'Clear', 'D': 'Flooded'}"
+imgq-56,img-19,What type of debris is blocking the road? Answer with one or two words.,Open-Ended,"['Rocks' 'Stone' 'Boulders' 'Rock debris' 'Landslide debris' 'Rockfall'
+ 'Rock and soil' 'Rockslides']",landslide,medic,,situational_awareness,SA-4,
+imgq-57,img-19,What is the terrain surrounding the disaster site? Answer with one or two words.,Open-Ended,"['Hilly' 'Mountainous' 'Slope' 'Hilly terrain' 'Mountainous area'
+ 'mountainous rocky' 'Rocky, forested' 'Hilly forest']",landslide,medic,,situational_awareness,SA-8,
+imgq-61,img-21,Are there any vehicles trapped in the collapsed area? Answer with Yes or No.,Binary,['Yes'],landslide,medic,,situational_awareness,SA-6,
+imgq-62,img-21,Is the road visibly damaged in the image? Answer with Yes or No.,Binary,['Yes'],landslide,medic,,situational_awareness,SA-2,
+imgq-63,img-21,What is the visible cautionary object? Answer with one or two words.,Open-Ended,['Caution tape' 'Barrier tape' 'Warning tape' 'Yellow tape' 'Police tape'],landslide,medic,,situational_awareness,SA-5,
+imgq-142,img-43,Is there visible damage to the road? Answer with Yes or No.,Binary,['Yes'],landslide,medic,,situational_awareness,SA-2,
+imgq-143,img-43,Is the guardrail broken or displaced? Answer with Yes or No.,Binary,['No'],landslide,medic,,situational_awareness,SA-2,
+imgq-144,img-43,What is the condition of the road? Select all that apply.,Multiple-Choice,['B'],landslide,medic,,situational_awareness,SA-2,"{'A': 'Intact', 'B': 'Partially damaged', 'C': 'Completely destroyed', 'D': 'Blocked by debris'}"
+imgq-147,img-45,What type of disaster is visible in the image? Select all that apply.,Multiple-Choice,['B'],landslide,medic,,situational_awareness,SA-1,"{'A': 'Flooding', 'B': 'Landslide', 'C': 'Earthquake', 'D': 'Tornado'}"
+imgq-148,img-45,What is the condition of the road? Select all that apply.,Multiple-Choice,['A'],landslide,medic,,situational_awareness,SA-4,"{'A': 'Completely blocked', 'B': 'Partially blocked', 'C': 'Clear', 'D': 'Flooded'}"
+imgq-169,img-53,Is there visible flood in the image? Answer with Yes or No.,Binary,['No'],hurricane,medic,,situational_awareness,SA-1,
+imgq-170,img-53,Are there any fallen trees or debris on the bridge? Answer with Yes or No.,Binary,['Yes'],hurricane,medic,,situational_awareness,SA-4,
+imgq-171,img-53,What is blocking the bridge? Answer with one or two words.,Open-Ended,['Debris' 'Fallen trees' 'Tree trunk' 'Fallen tree' 'Trees' 'Fallen logs'],hurricane,medic,,situational_awareness,SA-4,
+imgq-172,img-53,What type of structure is damaged? Answer with one or two words.,Open-Ended,['Bridge' 'Footbridge' 'Pedestrian bridge'],hurricane,medic,,situational_awareness,SA-2,
+imgq-180,img-56,Is there a fallen utility pole visible in the image? Answer with Yes or No.,Binary,['Yes'],hurricane,medic,,situational_awareness,SA-3,
+imgq-181,img-56,Are there emergency vehicles present in the image? Answer with Yes or No.,Binary,['Yes'],hurricane,medic,,situational_awareness,SA-6,
+imgq-182,img-56,What type of object is damaged? Answer with one or two words.,Open-Ended,['Utility pole' 'Pole' 'Power line' 'Telephone pole' 'Power pole'],hurricane,medic,,situational_awareness,SA-3,
+imgq-200,img-63,Is flooding visible in the image? Answer with Yes or No.,Binary,['No'],hurricane,medic,Southeast Asia,situational_awareness,SA-1,
+imgq-201,img-63,What type of disaster is depicted in the image? Select all that apply.,Multiple-Choice,['B'],hurricane,medic,Southeast Asia,situational_awareness,SA-1,"{'A': 'Flood', 'B': 'Hurricane', 'C': 'Earthquake', 'D': 'Wildfire'}"
+imgq-202,img-63,Is the road clear for vehicles to pass? Select all that apply.,Multiple-Choice,['A'],hurricane,medic,Southeast Asia,situational_awareness,SA-4,"{'A': 'Yes, the road is clear.', 'B': 'No, the road is blocked due to the hurricane.', 'C': 'The road is partially clear, but there is some debris.', 'D': 'The road is flooded and not safe to travel.'}"
+imgq-203,img-63,What weather condition is visible in the image? Select all that apply.,Multiple-Choice,['A' 'B'],hurricane,medic,Southeast Asia,situational_awareness,SA-1,"{'A': 'Heavy rain', 'B': 'Strong winds', 'C': 'Snowfall', 'D': 'Clear skies'}"
+imgq-213,img-67,Is there visible damage to electrical infrastructure? Answer with Yes or No.,Binary,['Yes'],hurricane,medic,North America,situational_awareness,SA-3,
+imgq-214,img-67,Which objects are visibly damaged in the image? Select all that apply.,Multiple-Choice,['A' 'B' 'C'],hurricane,medic,North America,situational_awareness,SA-3,"{'A': 'Electrical transformers', 'B': 'Power lines', 'C': 'Communication towers', 'D': 'Buildings'}"
+imgq-229,img-72,Is the debris causing obstruction on the road? Answer with Yes or No.,Binary,['No'],hurricane,medic,North America,situational_awareness,SA-4,
+imgq-230,img-72,Are there any buildings with visible damage in the image? Answer with Yes or No.,Binary,['No'],hurricane,medic,North America,situational_awareness,SA-2,
+imgq-231,img-72,What type of disaster is most likely depicted in the image? Select all that apply.,Multiple-Choice,['B'],hurricane,medic,North America,situational_awareness,SA-1,"{'A': 'Flood', 'B': 'Hurricane', 'C': 'Earthquake', 'D': 'Wildfire'}"
+imgq-232,img-72,What type of object is entangled in the utility wires? Answer with one or two words.,Open-Ended,['Metal sheet' 'Sheet' 'Roof sheet' 'Roof panel' 'Sheet metal'],hurricane,medic,North America,situational_awareness,SA-3,
+imgq-246,img-78,Is flooding visible in the image? Answer with Yes or No.,Binary,['Yes'],hurricane,medic,,situational_awareness,SA-1,
+imgq-247,img-78,Are there any road closure signs visible? Answer with Yes or No.,Binary,['Yes'],hurricane,medic,,situational_awareness,SA-5,
+imgq-248,img-78,Are there any vehicles visible in the flooded area? Answer with Yes or No.,Binary,['No'],hurricane,medic,,situational_awareness,SA-6,
+imgq-249,img-78,What type of disaster is depicted in the image? Select all that apply.,Multiple-Choice,['A'],hurricane,medic,,situational_awareness,SA-1,"{'A': 'Flood', 'B': 'Earthquake', 'C': 'Wildfire', 'D': 'Tornado'}"
+imgq-290,img-93,Is heavy machinery or equipment being used in the rescue operation? Answer with Yes or No.,Binary,['No'],hurricane,medic,Southeast Asia,actionable_task,AT-1,
+imgq-291,img-93,What type of disaster is depicted in the image? Select all that apply.,Multiple-Choice,['C'],hurricane,medic,Southeast Asia,situational_awareness,SA-1,"{'A': 'Earthquake', 'B': 'Flood', 'C': 'Landslide', 'D': 'Tornado'}"
+imgq-292,img-94,Are there emergency responders present in the image? Answer with Yes or No.,Binary,['No'],hurricane,medic,Southeast Asia,Other Useful Information,OT-1,
+imgq-293,img-94,"Are any of the people wearing visible protective gear (gloves, boots, helmets)? Answer with Yes or No.",Binary,['No'],hurricane,medic,Southeast Asia,Other Useful Information,OT-1,
+imgq-294,img-94,What actions are the people in the image performing? Select all that apply.,Multiple-Choice,['A'],hurricane,medic,Southeast Asia,actionable_task,AT-2,"{'A': 'Clearing debris', 'B': 'Evacuating', 'C': 'Providing medical aid', 'D': 'Assessing damage'}"
+imgq-295,img-94,What type of debris is being cleared by the people? Answer with one or two words.,Open-Ended,['Tree' 'Fallen tree' 'Tree branches'],hurricane,medic,Southeast Asia,situational_awareness,SA-2,
+imgq-332,img-108,What is the condition of the bridge in the image? Select all that apply.,Multiple-Choice,['C'],flood,medic,,situational_awareness,SA-2,"{'A': 'Intact', 'B': 'Partially Collapsed', 'C': 'Completely Collapsed', 'D': 'Underwater'}"
+imgq-339,img-112,What type of disaster is depicted in the image? Select all that apply.,Multiple-Choice,['A'],flood,medic,,situational_awareness,SA-1,"{'A': 'Flood', 'B': 'Earthquake', 'C': 'Wildfire', 'D': 'Tornado'}"
+imgq-340,img-112,What is the level of floodwater compared to the height of the people visible in the image? Select all that apply.,Multiple-Choice,['B'],flood,medic,,situational_awareness,SA-7,"{'A': 'Below the knees', 'B': 'Up to the waist', 'C': 'Up to the chest', 'D': 'Above the head'}"
+imgq-394,img-136,What type of disaster is depicted in the image? Select all that apply.,Multiple-Choice,['A'],flood,medic,Middle East,situational_awareness,SA-1,"{'A': 'Flooding', 'B': 'Earthquake', 'C': 'Wildfire', 'D': 'Tornado'}"
+imgq-395,img-136,What is the condition of the vehicles in the image? Select all that apply.,Multiple-Choice,['A' 'B'],flood,medic,Middle East,situational_awareness,SA-6,"{'A': 'Submerged', 'B': 'Damaged', 'C': 'Floating', 'D': 'Intact'}"
+imgq-396,img-136,What type of structure is partially submerged in the floodwaters? Answer with one or two words.,Open-Ended,"['Trailer' 'RV' 'Camper' 'Camper vans' 'Camper van' 'Mobile home'
+ 'RV trailers' 'Trailers' 'Campers' 'RV trailer']",flood,medic,Middle East,situational_awareness,SA-2,
+imgq-415,img-145,What type of disaster is depicted in the image? Select all that apply.,Multiple-Choice,['A'],flood,medic,,situational_awareness,SA-1,"{'A': 'Flood', 'B': 'Earthquake', 'C': 'Wildfire', 'D': 'Tornado'}"
+imgq-416,img-145,How many vehicles are visible in the image? Select all that apply.,Multiple-Choice,['C'],flood,medic,,situational_awareness,SA-6,"{'A': '1', 'B': '2', 'C': '3', 'D': '4'}"
+imgq-417,img-145,What is the condition of the buildings in the image? Select all that apply.,Multiple-Choice,['B'],flood,medic,,situational_awareness,SA-2,"{'A': 'Collapsed', 'B': 'Flooded', 'C': 'Burned', 'D': 'Intact'}"
+imgq-423,img-148,What type of disaster is depicted in the image? Select all that apply.,Multiple-Choice,['A'],flood,medic,,situational_awareness,SA-1,"{'A': 'Flooding', 'B': 'Earthquake', 'C': 'Wildfire', 'D': 'Tornado'}"
+imgq-424,img-148,What is the level of floodwater compared to the height of the people visible in the image? Select all that apply.,Multiple-Choice,['B'],flood,medic,,situational_awareness,SA-7,"{'A': 'Below the knees', 'B': 'Up to the waist', 'C': 'Up to the chest', 'D': 'Above the head'}"
+imgq-425,img-149,What type of disaster is depicted in the image? Select all that apply.,Multiple-Choice,['A'],flood,medic,,situational_awareness,SA-1,"{'A': 'Flood', 'B': 'Earthquake', 'C': 'Wildfire', 'D': 'Tornado'}"
+imgq-426,img-149,What objects are visible in the floodwaters? Select all that apply.,Multiple-Choice,['A' 'B'],flood,medic,,situational_awareness,SA-6,"{'A': 'Vehicle', 'B': 'People', 'C': 'Debris', 'D': 'Animals'}"
+imgq-427,img-149,What environmental conditions are visible in the image? Select all that apply.,Multiple-Choice,['A' 'D'],flood,medic,,situational_awareness,SA-8,"{'A': 'Strong winds', 'B': 'Heavy rain', 'C': 'Clear skies', 'D': 'Flooding'}"
+imgq-447,img-159,What is the level of floodwater compared to the height of the people visible in the image? Select all that apply.,Multiple-Choice,['C'],flood,medic,South Asia,situational_awareness,SA-7,"{'A': 'Below the knees', 'B': 'Up to the waist', 'C': 'Up to the chest', 'D': 'Above the head'}"
+imgq-456,img-163,What is the primary activity visible in the image? Select all that apply.,Multiple-Choice,['A'],flood,medic,South Asia,actionable_task,AT-1,"{'A': 'Evacuation', 'B': 'Search and rescue', 'C': 'Firefighting', 'D': 'Road clearing'}"
+imgq-482,img-176,Is this road safe to drive? Answer with Yes or No.,Binary,['No'],flood,medic,,situational_awareness,SA-4,
+imgq-483,img-176,What type of disaster is visible in the image? Select all that apply.,Multiple-Choice,['A'],flood,medic,,situational_awareness,SA-1,"{'A': 'Flooding', 'B': 'Earthquake', 'C': 'Wildfire', 'D': 'Tornado'}"
+imgq-484,img-176,What is the condition of the road in the image? Select all that apply.,Multiple-Choice,['B'],flood,medic,,situational_awareness,SA-4,"{'A': 'Dry', 'B': 'Flooded', 'C': 'Blocked by debris', 'D': 'Damaged'}"
+imgq-489,img-178,What type of disaster is depicted in the image? Select all that apply.,Multiple-Choice,['A'],flood,medic,,situational_awareness,SA-1,"{'A': 'Flooding', 'B': 'Earthquake', 'C': 'Wildfire', 'D': 'Tornado'}"
+imgq-492,img-180,What type of disaster is depicted in the image? Select all that apply.,Multiple-Choice,['A'],flood,medic,,situational_awareness,SA-1,"{'A': 'Flood', 'B': 'Earthquake', 'C': 'Wildfire', 'D': 'Tornado'}"
+imgq-493,img-180,What types of vehicles are visible in the image? Select all that apply.,Multiple-Choice,['A' 'B'],flood,medic,,situational_awareness,SA-6,"{'A': 'Motorcycles', 'B': 'Tricycles', 'C': 'Cars', 'D': 'Bicycles'}"
+imgq-494,img-180,What is the condition of the road in the image? Select all that apply.,Multiple-Choice,['B'],flood,medic,,situational_awareness,SA-4,"{'A': 'Dry', 'B': 'Flooded', 'C': 'Blocked by debris', 'D': 'Covered in mud'}"
+imgq-508,img-187,What type of disaster is depicted in the image? Select all that apply.,Multiple-Choice,['A'],flood,medic,,situational_awareness,SA-1,"{'A': 'Flood', 'B': 'Earthquake', 'C': 'Wildfire', 'D': 'Tornado'}"
+imgq-509,img-187,What is the primary condition affecting the area? Select all that apply.,Multiple-Choice,['A'],flood,medic,,situational_awareness,SA-1,"{'A': 'Heavy flooding', 'B': 'Collapsed buildings', 'C': 'Smoke and fire', 'D': 'Strong winds'}"
+imgq-553,img-204,What type of disaster is depicted in the image? Select all that apply.,Multiple-Choice,['A'],flood,medic,Africa,situational_awareness,SA-1,"{'A': 'Flooding', 'B': 'Earthquake', 'C': 'Wildfire', 'D': 'Landslide'}"
+imgq-554,img-204,What is the condition of the road under the bridge? Select all that apply.,Multiple-Choice,['B'],flood,medic,Africa,situational_awareness,SA-4,"{'A': 'Dry', 'B': 'Flooded', 'C': 'Blocked by debris', 'D': 'Covered in mud'}"
+imgq-582,img-214,What type of disaster is depicted in the image? Select all that apply.,Multiple-Choice,['A'],flood,medic,,situational_awareness,SA-1,"{'A': 'Flooding', 'B': 'Earthquake', 'C': 'Wildfire', 'D': 'Tornado'}"
+imgq-583,img-214,What is the condition of the road in the image? Select all that apply.,Multiple-Choice,['C'],flood,medic,,situational_awareness,SA-4,"{'A': 'Dry', 'B': 'Partially flooded', 'C': 'Completely flooded', 'D': 'Blocked by debris'}"
+imgq-587,img-216,What type of disaster is depicted in the image? Select all that apply.,Multiple-Choice,['A'],flood,medic,,situational_awareness,SA-1,"{'A': 'Flood', 'B': 'Earthquake', 'C': 'Wildfire', 'D': 'Tornado'}"
+imgq-588,img-216,What objects are being used for flotation in the image? Select all that apply.,Multiple-Choice,['A'],flood,medic,,Other Useful Information,OT-1,"{'A': 'Refrigerator', 'B': 'Boat', 'C': 'Wooden Plank', 'D': 'Plastic Container'}"
+imgq-589,img-216,What is the primary condition of the environment visible in the image? Select all that apply.,Multiple-Choice,['B'],flood,medic,,situational_awareness,SA-1,"{'A': 'Dry ground', 'B': 'Flooded water', 'C': 'Snow-covered ground', 'D': 'Smoke-filled air'}"
+imgq-590,img-216,How many people are visible in the image? Answer with one or two words.,Open-Ended,['Three' '3' 'Three people' '3 people'],flood,medic,,situational_awareness,SA-6,
+imgq-596,img-219,Are there any vehicles partially submerged in water? Answer with Yes or No.,Binary,['Yes'],flood,medic,,situational_awareness,SA-6,
+imgq-597,img-219,Is there a building affected by the flood? Answer with Yes or No.,Binary,['Yes'],flood,medic,,situational_awareness,SA-2,
+imgq-598,img-219,What type of disaster is depicted in the image? Select all that apply.,Multiple-Choice,['A'],flood,medic,,situational_awareness,SA-1,"{'A': 'Flood', 'B': 'Earthquake', 'C': 'Wildfire', 'D': 'Tornado'}"
+imgq-599,img-219,What type of building is visible in the image? Select all that apply.,Multiple-Choice,['B'],flood,medic,,situational_awareness,SA-2,"{'A': 'Residential', 'B': 'Commercial', 'C': 'Industrial', 'D': 'Government'}"
+imgq-600,img-220,What is the condition of the road in the image? Select all that apply.,Multiple-Choice,['B'],flood,medic,,situational_awareness,SA-4,"{'A': 'Dry', 'B': 'Partially flooded', 'C': 'Completely submerged', 'D': 'Blocked by debris'}"
+imgq-609,img-224,Is there visible structural damage to buildings? Answer with Yes or No.,Binary,['Yes'],earthquake,medic,South Asia,situational_awareness,SA-2,
+imgq-610,img-224,What type of disaster is depicted in the image? Select all that apply.,Multiple-Choice,['A'],earthquake,medic,South Asia,situational_awareness,SA-1,"{'A': 'Earthquake', 'B': 'Flood', 'C': 'Tornado', 'D': 'Wildfire'}"
+imgq-611,img-224,What is the condition of the road? Select all that apply.,Multiple-Choice,['B'],earthquake,medic,South Asia,situational_awareness,SA-4,"{'A': 'Clear', 'B': 'Partially blocked', 'C': 'Completely blocked', 'D': 'Flooded'}"
+imgq-612,img-224,What type of building is damaged? Answer with one or two words.,Open-Ended,"['Residential' 'Apartment' 'Residential building' 'Apartment building'
+ 'Residential buildings']",earthquake,medic,South Asia,situational_awareness,SA-2,
+imgq-631,img-233,What is the condition of the structure in the image? Select all that apply.,Multiple-Choice,['A'],earthquake,medic,South Asia,situational_awareness,SA-2,"{'A': 'Collapsed', 'B': 'Partially damaged', 'C': 'Intact', 'D': 'Under construction'}"
+imgq-643,img-239,Is there visible debris from collapsed structures? Answer with Yes or No.,Binary,['Yes'],earthquake,medic,South Asia,situational_awareness,SA-2,
+imgq-644,img-239,What type of structure is damaged? Answer with one or two words.,Open-Ended,"['Wall' 'Building' 'Brick building' 'Wall damage' 'Brick wall'
+ 'Building wall']",earthquake,medic,South Asia,situational_awareness,SA-2,
+imgq-656,img-243,What type of disaster is most likely depicted in the image? Select all that apply.,Multiple-Choice,['A'],earthquake,medic,South Asia,situational_awareness,SA-1,"{'A': 'Earthquake', 'B': 'Flood', 'C': 'Hurricane', 'D': 'Fire'}"
+imgq-657,img-243,What is the primary condition of the building? Select all that apply.,Multiple-Choice,['B'],earthquake,medic,South Asia,situational_awareness,SA-2,"{'A': 'Collapsed', 'B': 'Partially damaged', 'C': 'Intact', 'D': 'Burned'}"
+imgq-683,img-254,Are emergency vehicles present in the image? Answer with Yes or No.,Binary,['Yes'],earthquake,medic,South Asia,situational_awareness,SA-6,
+imgq-684,img-254,What type of disaster is depicted in the image? Select all that apply.,Multiple-Choice,['A'],earthquake,medic,South Asia,situational_awareness,SA-1,"{'A': 'Earthquake', 'B': 'Flood', 'C': 'Tornado', 'D': 'Wildfire'}"
+imgq-685,img-254,What type of building is damaged? Answer with one or two words.,Open-Ended,['Brick building' 'Fire station'],earthquake,medic,South Asia,situational_awareness,SA-2,
+imgq-690,img-257,What is the condition of the buildings in the image? Select all that apply.,Multiple-Choice,['A' 'B'],earthquake,medic,South Asia,situational_awareness,SA-2,"{'A': 'Completely collapsed', 'B': 'Partially damaged', 'C': 'Intact', 'D': 'Under construction'}"
+imgq-691,img-257,What type of material is most prominent in the debris? Answer with one or two words.,Open-Ended,['Wood' 'Wooden planks' 'Wood debris' 'Wood mud' 'Wood and brick'],earthquake,medic,South Asia,Other Useful Information,OT-1,
+imgq-695,img-259,Is there visible fire in the image? Answer with Yes or No.,Binary,['No'],accidents,medic,South America,situational_awareness,SA-1,
+imgq-696,img-259,Are emergency responders visible in the image? Answer with Yes or No.,Binary,['Yes'],accidents,medic,South America,Other Useful Information,OT-1,
+imgq-697,img-259,Is the road flooded? Answer with Yes or No.,Binary,['No'],accidents,medic,South America,situational_awareness,SA-7,
+imgq-706,img-263,Are there any vehicles visible in the water? Answer with Yes or No.,Binary,['Yes'],other_disasters,medic,,situational_awareness,SA-6,
+imgq-707,img-263,Are there emergency responders visible in the image? Answer with Yes or No.,Binary,['Yes'],other_disasters,medic,,Other Useful Information,OT-1,
+imgq-708,img-263,What is the condition of the bridge? Select all that apply.,Multiple-Choice,['B'],other_disasters,medic,,situational_awareness,SA-2,"{'A': 'Fully intact', 'B': 'Partially collapsed', 'C': 'Completely collapsed', 'D': 'Under construction'}"
+imgq-709,img-263,What type of structure is damaged? Answer with one or two words.,Open-Ended,['Bridge' 'Overpass' 'Bridge collapse'],other_disasters,medic,,situational_awareness,SA-2,
+imgq-724,img-268,Is the road blocked? Answer with Yes or No.,Binary,['No'],other_disasters,medic,,situational_awareness,SA-4,
+imgq-725,img-268,Are emergency responders present in the image? Answer with Yes or No.,Binary,['Yes'],other_disasters,medic,,Other Useful Information,OT-1,
+imgq-726,img-268,Is heavy machinery being used for debris removal? Answer with Yes or No.,Binary,['Yes'],other_disasters,medic,,actionable_task,AT-2,
+imgq-727,img-268,What type of machinery is being used? Answer with one or two words.,Open-Ended,['Excavator' 'Bulldozer' 'Backhoe'],other_disasters,medic,,Other Useful Information,OT-1,
+imgq-743,img-273,What is the condition of the damaged vehicle? Select all that apply.,Multiple-Choice,['A' 'D'],other_disasters,medic,,situational_awareness,SA-6,"{'A': 'Crushed roof', 'B': 'Flooded interior', 'C': 'Burnt exterior', 'D': 'Broken windows'}"
+imgq-744,img-273,What object is causing damage to the vehicle? Answer with one or two words.,Open-Ended,['Tree' 'Fallen tree' 'Log' 'Tree trunk'],other_disasters,medic,,situational_awareness,SA-2,
+imgq-745,img-273,How many damaged vehicles are visible? Answer with one or two words.,Open-Ended,['One' '1' 'One vehicle' '1 vehicle' 'One car' 'One damaged'],other_disasters,medic,,situational_awareness,SA-6,
+imgq-764,img-279,Is there visible structural damage to the building? Answer with Yes or No.,Binary,['Yes'],fire,medic,,situational_awareness,SA-2,
+imgq-765,img-279,Are there any signs of fire damage in the image? Answer with Yes or No.,Binary,['Yes'],fire,medic,,situational_awareness,SA-1,
+imgq-766,img-279,What type of disaster is depicted in the image? Select all that apply.,Multiple-Choice,['B'],fire,medic,,situational_awareness,SA-1,"{'A': 'Flood', 'B': 'Fire', 'C': 'Earthquake', 'D': 'Hurricane'}"
+imgq-767,img-279,What is the condition of the building's interior? Select all that apply.,Multiple-Choice,['C' 'D'],fire,medic,,situational_awareness,SA-2,"{'A': 'Completely intact', 'B': 'Partially damaged', 'C': 'Severely damaged', 'D': 'Collapsed'}"
+imgq-768,img-279,How many doorways are visible? Answer with one or two words.,Open-Ended,['Three' '3' 'Three doorways' '3 doorways' 'Three doors'],fire,medic,,Other Useful Information,OT-1,
+imgq-795,img-287,Is there visible dust or smoke in the image? Answer with Yes or No.,Binary,['Yes'],fire,medic,South Asia,situational_awareness,SA-1,
+imgq-796,img-287,Are construction or heavy vehicles present in the image? Answer with Yes or No.,Binary,['Yes'],fire,medic,South Asia,situational_awareness,SA-6,
+imgq-797,img-287,What type of incident is most likely depicted in the image? Select all that apply.,Multiple-Choice,['D'],fire,medic,South Asia,situational_awareness,SA-1,"{'A': 'Earthquake', 'B': 'Volcanic eruption', 'C': 'Wildfire', 'D': 'None of the above'}"
+imgq-798,img-287,Which objects are visible in the image? Select all that apply.,Multiple-Choice,['A' 'B' 'C'],fire,medic,South Asia,situational_awareness,SA-6,"{'A': 'Cars', 'B': 'Trucks', 'C': 'Excavators', 'D': 'Emergency vehicles'}"
+imgq-799,img-287,What is the primary condition affecting visibility in the image? Select all that apply.,Multiple-Choice,['B'],fire,medic,South Asia,situational_awareness,SA-1,"{'A': 'Rain', 'B': 'Dust', 'C': 'Fog', 'D': 'Smoke'}"
+imgq-832,img-294,Is there visible damage to the building? Answer with Yes or No.,Binary,['Yes'],fire,medic,Europe,situational_awareness,SA-2,
+imgq-833,img-294,What is the state of the building in the image? Select all that apply.,Multiple-Choice,['B'],fire,medic,Europe,situational_awareness,SA-2,"{'A': 'Intact', 'B': 'Partially damaged', 'C': 'Completely destroyed', 'D': 'Under construction'}"
+imgq-834,img-294,What is the primary cause of damage in the image? Answer with one or two words.,Open-Ended,['Fire' 'Wildfire' 'Fire damage'],fire,medic,Europe,situational_awareness,SA-1,
+imgq-860,img-301,Is there visible smoke in the image? Answer with Yes or No.,Binary,['Yes'],fire,medic,,situational_awareness,SA-1,
+imgq-861,img-301,Are there any collapsed structures visible in the image? Answer with Yes or No.,Binary,['Yes'],fire,medic,,situational_awareness,SA-2,
+imgq-862,img-301,What objects are firefighters interacting with in the image? Select all that apply.,Multiple-Choice,['A'],fire,medic,,Other Useful Information,OT-1,"{'A': 'Debris', 'B': 'Vehicles', 'C': 'Trees', 'D': 'Buildings'}"
+imgq-881,img-306,Is there a water bucket attached to the helicopter? Answer with Yes or No.,Binary,['Yes'],fire,medic,,Other Useful Information,OT-1,
+imgq-882,img-306,What is the helicopter likely being used for? Select all that apply.,Multiple-Choice,['B'],fire,medic,,actionable_task,AT-3,"{'A': 'Rescue operations', 'B': 'Fire suppression', 'C': 'Evacuation', 'D': 'Medical transport'}"
+imgq-883,img-306,What is the condition of the sky in the image? Select all that apply.,Multiple-Choice,['C'],fire,medic,,situational_awareness,SA-1,"{'A': 'Clear', 'B': 'Cloudy', 'C': 'Smoky', 'D': 'Rainy'}"
+imgq-884,img-306,What type of disaster is causing the smoke? Answer with one or two words.,Open-Ended,['Wildfire' 'Fire' 'Fire disaster'],fire,medic,,situational_awareness,SA-1,
+imgq-885,img-306,What type of vehicle is visible in the image? Answer with one or two words.,Open-Ended,['Helicopter' 'Aircraft'],fire,medic,,Other Useful Information,OT-1,
+imgq-898,img-311,Is there a building on fire in the image? Answer with Yes or No.,Binary,['Yes'],fire,medic,,situational_awareness,SA-1,
+imgq-899,img-311,Is there anyone trying to actively suppress the fire in the image? Answer with Yes or No.,Binary,['No'],fire,medic,,situational_awareness,SA-1,
+imgq-909,img-315,Is there a building on fire in the image? Answer with Yes or No.,Binary,['Yes'],fire,medic,,situational_awareness,SA-1,
+imgq-910,img-315,What is the condition of the building in the image? Select all that apply.,Multiple-Choice,['C' 'D'],fire,medic,,situational_awareness,SA-2,"{'A': 'Intact', 'B': 'Partially damaged', 'C': 'Fully engulfed in flames', 'D': 'Collapsing'}"
+imgq-911,img-315,How high the flames reach in the image? Select all that apply.,Multiple-Choice,['D'],fire,medic,,situational_awareness,SA-1,"{'A': 'One storey', 'B': 'Two storeys', 'C': 'Three storeys', 'D': 'More than three storeys'}"
+imgq-915,img-317,Is there visible fire in the image? Answer with Yes or No.,Binary,['Yes'],fire,medic,,situational_awareness,SA-1,
+imgq-916,img-317,What is the condition of the building in the image? Select all that apply.,Multiple-Choice,['C'],fire,medic,,situational_awareness,SA-2,"{'A': 'Intact', 'B': 'Crashed by a car', 'C': 'On fire', 'D': 'Collapsed'}"
+imgq-917,img-317,How many houses are affected from the fire? Answer with one or two words.,Open-Ended,['Two' '2' 'Two houses' '2 houses'],fire,medic,,situational_awareness,SA-2,
+imgq-922,img-319,Is the smoke obstructing visibility of the sky? Answer with Yes or No.,Binary,['Yes'],fire,medic,,situational_awareness,SA-1,
+imgq-923,img-319,What is the color of the smoke visible in the image? Select all that apply.,Multiple-Choice,['C'],fire,medic,,situational_awareness,SA-1,"{'A': 'White', 'B': 'Gray', 'C': 'Black', 'D': 'Brown'}"
+imgq-924,img-319,What is the primary visible hazard in the image? Answer with one or two words.,Open-Ended,['Smoke' 'Large smoke' 'Smoke plume' 'Black smoke' 'Toxic smoke'],fire,medic,,situational_awareness,SA-1,
+imgq-925,img-320,Is there a fire visible in the image? Answer with Yes or No.,Binary,['Yes'],fire,medic,,situational_awareness,SA-1,
+imgq-926,img-320,Are there any vehicles visibly affected by the smoke? Answer with Yes or No.,Binary,['No'],fire,medic,,situational_awareness,SA-6,
+imgq-927,img-320,What is the severity of the smoke plume visible in the image? Select all that apply.,Multiple-Choice,['C'],fire,medic,,situational_awareness,SA-1,"{'A': 'Light', 'B': 'Moderate', 'C': 'Heavy', 'D': 'No smoke'}"
+imgq-940,img-326,Is there a damaged vehicle visible in the image? Answer with Yes or No.,Binary,['Yes'],fire,medic,,situational_awareness,SA-6,
+imgq-941,img-326,Are there residential buildings near the fire? Answer with Yes or No.,Binary,['Yes'],fire,medic,,situational_awareness,SA-6,
+imgq-942,img-326,What is the primary source of danger in the image? Select all that apply.,Multiple-Choice,['A' 'B'],fire,medic,,situational_awareness,SA-1,"{'A': 'Smoke', 'B': 'Fire', 'C': 'Flooding', 'D': 'Debris'}"
+imgq-943,img-326,What type of building is on fire? Answer with one or two words.,Open-Ended,"['Residential' 'Apartment' 'House' 'Residential building'
+ 'Apartment building' 'Garage']",fire,medic,,situational_awareness,SA-1,
+imgq-978,img-338,Is there visible flooding in the image? Answer with Yes or No.,Binary,['No'],earthquake,medic,South America,situational_awareness,SA-1,
+imgq-979,img-338,What type of disaster is visible in the image? Select all that apply.,Multiple-Choice,['B'],earthquake,medic,South America,situational_awareness,SA-1,"{'A': 'Flooding', 'B': 'Earthquake', 'C': 'Landslide', 'D': 'Hurricane'}"
+imgq-980,img-338,What is the condition of the road? Select all that apply.,Multiple-Choice,['B' 'D'],earthquake,medic,South America,situational_awareness,SA-2,"{'A': 'Completely blocked', 'B': 'Partially damaged', 'C': 'Undamaged', 'D': 'Severely cracked'}"
+imgq-1031,img-354,Is there debris blocking the road? Answer with Yes or No.,Binary,['Yes'],earthquake,medic,South America,situational_awareness,SA-4,
+imgq-1032,img-354,What type of disaster is depicted in the image? Select all that apply.,Multiple-Choice,['A'],earthquake,medic,South America,situational_awareness,SA-1,"{'A': 'Earthquake', 'B': 'Flood', 'C': 'Tornado', 'D': 'Wildfire'}"
+imgq-1033,img-354,What is the primary condition of the buildings visible in the image? Select all that apply.,Multiple-Choice,['B'],earthquake,medic,South America,situational_awareness,SA-2,"{'A': 'Intact', 'B': 'Partially Collapsed', 'C': 'Completely Collapsed', 'D': 'Under Construction'}"
+imgq-1034,img-355,Is there excavators or bulldozers seen in the image? Answer with Yes or No.,Binary,['Yes'],earthquake,medic,South America,Other Useful Information,OT-1,
+imgq-1035,img-355,Which objects are visibly damaged in the image? Select all that apply.,Multiple-Choice,['A' 'B'],earthquake,medic,South America,situational_awareness,SA-2,"{'A': 'Vehicle', 'B': 'Building', 'C': 'Power lines', 'D': 'Road'}"
+imgq-1073,img-369,Is there visible debris blocking the road? Answer with Yes or No.,Binary,['Yes'],earthquake,medic,South America,situational_awareness,SA-4,
+imgq-1074,img-369,Are there emergency responders visible in the image? Answer with Yes or No.,Binary,['Yes'],earthquake,medic,South America,Other Useful Information,OT-1,
+imgq-1075,img-369,Is heavy machinery being used for debris removal? Answer with Yes or No.,Binary,['Yes'],earthquake,medic,South America,actionable_task,AT-2,
+imgq-1076,img-369,What is the primary condition affecting the area? Select all that apply.,Multiple-Choice,['A' 'B'],earthquake,medic,South America,situational_awareness,SA-2,"{'A': 'Blocked roads', 'B': 'Collapsed buildings', 'C': 'Flooding', 'D': 'Fire damage'}"
+imgq-1080,img-371,Is the road blocked by the debris in the image? Answer with Yes or No.,Binary,['No'],earthquake,medic,South America,situational_awareness,SA-4,
+imgq-1081,img-371,Are there any fallen power poles in the image? Answer with Yes or No.,Binary,['No'],earthquake,medic,South America,situational_awareness,SA-3,
+imgq-1082,img-371,What is the primary condition of the building in the image? Select all that apply.,Multiple-Choice,['C'],earthquake,medic,South America,situational_awareness,SA-2,"{'A': 'Intact', 'B': 'Partially Collapsed', 'C': 'Completely Collapsed', 'D': 'Under Construction'}"
+imgq-1083,img-372,Are there collapsed buildings visible in the image? Answer with Yes or No.,Binary,['Yes'],earthquake,medic,South America,situational_awareness,SA-2,
+imgq-1084,img-372,Are there emergency responders present in the image? Answer with Yes or No.,Binary,['Yes'],earthquake,medic,South America,Other Useful Information,OT-1,
+imgq-1085,img-372,What type of disaster is depicted in the image? Select all that apply.,Multiple-Choice,['A'],earthquake,medic,South America,situational_awareness,SA-1,"{'A': 'Earthquake', 'B': 'Flood', 'C': 'Wildfire', 'D': 'Hurricane'}"
+imgq-1089,img-374,Is the road completely blocked by the debris? Answer with Yes or No.,Binary,['No'],earthquake,medic,South America,situational_awareness,SA-4,
+imgq-1090,img-374,Are there emergency responders visible in the image? Answer with Yes or No.,Binary,['No'],earthquake,medic,South America,Other Useful Information,OT-1,
+imgq-1091,img-375,Are there collapsed buildings visible in the image? Answer with Yes or No.,Binary,['Yes'],earthquake,medic,South America,situational_awareness,SA-2,
+imgq-1092,img-375,Are there any visible rescue vehicles or equipment in the image? Answer with Yes or No.,Binary,['Yes'],earthquake,medic,South America,situational_awareness,SA-6,
+imgq-1093,img-375,Which objects are visible in the image that could aid rescue operations? Select all that apply.,Multiple-Choice,['A'],earthquake,medic,South America,situational_awareness,SA-6,"{'A': 'Excavator', 'B': 'Ambulance', 'C': 'Helicopter', 'D': 'Fire Truck'}"
+imgq-1094,img-376,Is there visible structural damage to buildings? Answer with Yes or No.,Binary,['Yes'],earthquake,medic,South America,situational_awareness,SA-2,
+imgq-1095,img-376,Are construction or heavy machinery vehicles present in the image? Answer with Yes or No.,Binary,['Yes'],earthquake,medic,South America,situational_awareness,SA-6,
+imgq-1096,img-376,What type of disaster is most likely depicted in the image? Select all that apply.,Multiple-Choice,['A'],earthquake,medic,South America,situational_awareness,SA-1,"{'A': 'Earthquake', 'B': 'Flood', 'C': 'Hurricane', 'D': 'Wildfire'}"
+imgq-1097,img-377,Is there visible flooding in the image? Answer with Yes or No.,Binary,['No'],earthquake,medic,South America,situational_awareness,SA-1,
+imgq-1098,img-377,Are there any visible signs of rescue operations? Answer with Yes or No.,Binary,['No'],earthquake,medic,South America,Other Useful Information,OT-1,
+imgq-1110,img-381,Is there caution tape visible near the damaged area? Answer with Yes or No.,Binary,['No'],earthquake,medic,South America,situational_awareness,SA-5,
+imgq-1111,img-381,Are emergency response vehicles or equipment present in the image? Answer with Yes or No.,Binary,['Yes'],earthquake,medic,South America,Other Useful Information,OT-1,
+imgq-1112,img-381,What type of disaster is depicted in the image? Select all that apply.,Multiple-Choice,['A'],earthquake,medic,South America,situational_awareness,SA-1,"{'A': 'Earthquake', 'B': 'Flood', 'C': 'Wildfire', 'D': 'Hurricane'}"
+imgq-1113,img-381,What type of equipment is visible in the image? Select all that apply.,Multiple-Choice,['A'],earthquake,medic,South America,Other Useful Information,OT-1,"{'A': 'Excavator', 'B': 'Fire Truck', 'C': 'Ambulance', 'D': 'Helicopter'}"
+imgq-1114,img-381,What is the condition of the building in the image? Select all that apply.,Multiple-Choice,['A'],earthquake,medic,South America,situational_awareness,SA-2,"{'A': 'Collapsed', 'B': 'Flooded', 'C': 'Intact', 'D': 'Under construction'}"
+imgq-1151,img-392,What type of disaster is depicted in the image? Select all that apply.,Multiple-Choice,['A'],earthquake,medic,South America,situational_awareness,SA-1,"{'A': 'Earthquake', 'B': 'Flood', 'C': 'Tornado', 'D': 'Wildfire'}"
+imgq-1152,img-392,What is the role of the individuals wearing red uniforms? Select all that apply.,Multiple-Choice,['A'],earthquake,medic,South America,Other Useful Information,OT-1,"{'A': 'Emergency responders', 'B': 'Construction workers', 'C': 'Civilians', 'D': 'Police officers'}"
+imgq-1205,img-415,Are there any barricades or caution tape visible in the image? Answer with Yes or No.,Binary,['Yes'],earthquake,medic,,situational_awareness,SA-5,
+imgq-1206,img-415,Are there any emergency responders or vehicles visible in the image? Answer with Yes or No.,Binary,['No'],earthquake,medic,,situational_awareness,SA-6,
+imgq-1207,img-415,What type of disaster is most likely depicted in the image? Select all that apply.,Multiple-Choice,['B'],earthquake,medic,,situational_awareness,SA-1,"{'A': 'Flooding', 'B': 'Fire', 'C': 'Earthquake', 'D': 'Hurricane'}"
+imgq-1227,img-425,Are there emergency responders visible in the image? Answer with Yes or No.,Binary,['Yes'],earthquake,medic,,Other Useful Information,OT-1,
+imgq-1228,img-425,Are rescue operations actively taking place in the image? Answer with Yes or No.,Binary,['Yes'],earthquake,medic,,situational_awareness,SA-6,
+imgq-1255,img-439,Is there visible structural damage to the building? Answer with Yes or No.,Binary,['Yes'],earthquake,medic,,situational_awareness,SA-2,
+imgq-1256,img-439,Are there any people visible near the debris? Answer with Yes or No.,Binary,['Yes'],earthquake,medic,,situational_awareness,SA-6,
+imgq-1257,img-439,What type of disaster is depicted in the image? Select all that apply.,Multiple-Choice,['A'],earthquake,medic,,situational_awareness,SA-1,"{'A': 'Earthquake', 'B': 'Flood', 'C': 'Tornado', 'D': 'Fire'}"
+imgq-1258,img-440,Is there visible structural damage to buildings? Answer with Yes or No.,Binary,['Yes'],earthquake,medic,,situational_awareness,SA-2,
+imgq-1259,img-440,Are there any objects blocking potential rescue paths? Answer with Yes or No.,Binary,['Yes'],earthquake,medic,,situational_awareness,SA-4,
+imgq-1271,img-444,What type of disaster is visible in the image? Select all that apply.,Multiple-Choice,['B'],earthquake,medic,,situational_awareness,SA-1,"{'A': 'Flooding', 'B': 'Earthquake', 'C': 'Wildfire', 'D': 'Hurricane'}"
+imgq-1272,img-444,What is the condition of the road in the image? Select all that apply.,Multiple-Choice,['B'],earthquake,medic,,situational_awareness,SA-2,"{'A': 'Intact', 'B': 'Cracked', 'C': 'Flooded', 'D': 'Blocked by debris'}"
+imgq-1280,img-447,Is there visible damage to the road? Answer with Yes or No.,Binary,['Yes'],earthquake,medic,,situational_awareness,SA-2,
+imgq-1281,img-447,Are traffic cones placed near the damaged area in the image? Answer with Yes or No.,Binary,['Yes'],earthquake,medic,,situational_awareness,SA-5,
+imgq-1282,img-447,What is the condition of the road? Select all that apply.,Multiple-Choice,['B' 'D'],earthquake,medic,,situational_awareness,SA-2,"{'A': 'Intact', 'B': 'Cracked', 'C': 'Flooded', 'D': 'Blocked'}"
+imgq-1289,img-451,Is there a vehicle trapped in a sinkhole? Answer with Yes or No.,Binary,['Yes'],earthquake,medic,,situational_awareness,SA-6,
+imgq-1290,img-451,Are there visible signs of flood in the image? Answer with Yes or No.,Binary,['No'],earthquake,medic,,situational_awareness,SA-1,
+imgq-1291,img-451,Is caution tape placed near the damaged area? Answer with Yes or No.,Binary,['Yes'],earthquake,medic,,situational_awareness,SA-5,
+imgq-1292,img-451,What is the condition of the road? Select all that apply.,Multiple-Choice,['C'],earthquake,medic,,situational_awareness,SA-2,"{'A': 'Intact', 'B': 'Minor cracks', 'C': 'Severely damaged', 'D': 'Blocked by debris'}"
+imgq-1298,img-454,Is there any caution tape placed near the damaged area? Answer with Yes or No.,Binary,['No'],earthquake,medic,,situational_awareness,SA-5,
+imgq-1299,img-454,Is a vehicle trapped in the damaged area? Answer with Yes or No.,Binary,['Yes'],earthquake,medic,,situational_awareness,SA-6,
+imgq-1300,img-454,Are there emergency responders visible in the image? Answer with Yes or No.,Binary,['Yes'],earthquake,medic,,Other Useful Information,OT-1,
+imgq-1301,img-454,What type of disaster is visible in the image? Select all that apply.,Multiple-Choice,['C'],earthquake,medic,,situational_awareness,SA-1,"{'A': 'Flooding', 'B': 'Landslide', 'C': 'Road collapse', 'D': 'Fire'}"
+imgq-1322,img-464,Can vehicles pass through this road? Answer with Yes or No.,Binary,['No'],earthquake,medic,,situational_awareness,SA-4,
+imgq-1341,img-471,Is there visible road damage in the image? Answer with Yes or No.,Binary,['Yes'],earthquake,medic,,situational_awareness,SA-2,
+imgq-1342,img-471,Are traffic cones placed near the damaged area in the image? Answer with Yes or No.,Binary,['Yes'],earthquake,medic,,situational_awareness,SA-5,
+imgq-1343,img-471,Is the road completely blocked by debris? Answer with Yes or No.,Binary,['No'],earthquake,medic,,situational_awareness,SA-4,
+imgq-1344,img-471,How severe is the damage on the road? Select all that apply.,Multiple-Choice,['A'],earthquake,medic,,situational_awareness,SA-2,"{'A': 'Minor', 'B': 'Moderate', 'C': 'Severe', 'D': 'Extreme'}"
+imgq-1352,img-474,Is there visible debris blocking the road? Answer with Yes or No.,Binary,['Yes'],earthquake,medic,South Asia,situational_awareness,SA-4,
+imgq-1353,img-474,What objects are visible in the debris? Select all that apply.,Multiple-Choice,['A' 'D'],earthquake,medic,South Asia,situational_awareness,SA-2,"{'A': 'Bricks', 'B': 'Wood', 'C': 'Metal', 'D': 'Concrete'}"
+imgq-1358,img-476,Are there emergency responders visible near the debris? Answer with Yes or No.,Binary,['No'],earthquake,medic,South Asia,Other Useful Information,OT-1,
+imgq-1359,img-476,What is the condition on the road in the image? Select all that apply.,Multiple-Choice,['B'],earthquake,medic,South Asia,situational_awareness,SA-4,"{'A': 'Fully blocked', 'B': 'Partially blocked', 'C': 'Flooded', 'D': 'Cracked'}"
+imgq-1360,img-476,What objects are visible in the debris? Select all that apply.,Multiple-Choice,['A' 'B'],earthquake,medic,South Asia,situational_awareness,SA-2,"{'A': 'Bricks', 'B': 'Concrete slabs', 'C': 'Wooden planks', 'D': 'Metal sheets'}"
+imgq-1394,img-491,What type of disaster is depicted in the image? Select all that apply.,Multiple-Choice,['A'],earthquake,medic,South Asia,situational_awareness,SA-1,"{'A': 'Earthquake', 'B': 'Flood', 'C': 'Wildfire', 'D': 'Hurricane'}"
+imgq-1396,img-493,Is there visible structural damage to buildings? Answer with Yes or No.,Binary,['Yes'],earthquake,medic,South Asia,situational_awareness,SA-2,
+imgq-1397,img-493,Is debris blocking the road? Answer with Yes or No.,Binary,['No'],earthquake,medic,South Asia,situational_awareness,SA-4,
+imgq-1398,img-493,What type of disaster is visible in the image? Select all that apply.,Multiple-Choice,['A'],earthquake,medic,South Asia,situational_awareness,SA-1,"{'A': 'Earthquake', 'B': 'Flood', 'C': 'Tornado', 'D': 'Wildfire'}"
+imgq-1399,img-493,What is the condition of the road near the damaged area? Select all that apply.,Multiple-Choice,['C'],earthquake,medic,South Asia,situational_awareness,SA-4,"{'A': 'Blocked by debris', 'B': 'Visibly cracked', 'C': 'Clear', 'D': 'Flooded'}"
+imgq-1402,img-495,Are there emergency responders visible in the image? Answer with Yes or No.,Binary,['No'],earthquake,medic,South Asia,Other Useful Information,OT-1,
+imgq-1403,img-495,What type of disaster is depicted in the image? Select all that apply.,Multiple-Choice,['A'],earthquake,medic,South Asia,situational_awareness,SA-1,"{'A': 'Earthquake', 'B': 'Flood', 'C': 'Fire', 'D': 'Hurricane'}"
+imgq-1405,img-497,Is there visible structural damage to buildings? Answer with Yes or No.,Binary,['Yes'],earthquake,medic,South Asia,situational_awareness,SA-2,
+imgq-1406,img-497,Are there any signs of debris blocking access routes? Answer with Yes or No.,Binary,['Yes'],earthquake,medic,South Asia,situational_awareness,SA-4,
+imgq-1407,img-497,What type of damage is visible in the image? Select all that apply.,Multiple-Choice,['A'],earthquake,medic,South Asia,situational_awareness,SA-1,"{'A': 'Earthquake', 'B': 'Flooding', 'C': 'Fire damage', 'D': 'Landslide'}"
+imgq-1426,img-507,Are there any heavy machinery or vehicles present in the image? Answer with Yes or No.,Binary,['Yes'],earthquake,medic,South Asia,situational_awareness,SA-6,
+imgq-1427,img-507,What is the condition of the buildings in the image? Select all that apply.,Multiple-Choice,['B'],earthquake,medic,South Asia,situational_awareness,SA-2,"{'A': 'Completely collapsed', 'B': 'Partially damaged', 'C': 'Intact', 'D': 'Under construction'}"
+imgq-1455,img-519,Are there emergency responders or vehicles visible near the damaged building? Answer with Yes or No.,Binary,['Yes'],earthquake,medic,,situational_awareness,SA-6,
+imgq-1456,img-519,What type of disaster is depicted in the image? Select all that apply.,Multiple-Choice,['A'],earthquake,medic,,situational_awareness,SA-1,"{'A': 'Earthquake', 'B': 'Flood', 'C': 'Tornado', 'D': 'Wildfire'}"
+imgq-1457,img-519,What is the primary visible damage in the image? Select all that apply.,Multiple-Choice,['A'],earthquake,medic,,situational_awareness,SA-2,"{'A': 'Collapsed building', 'B': 'Flooded streets', 'C': 'Burnt structures', 'D': 'Uprooted trees'}"
+imgq-1472,img-524,Is the building visibly damaged? Answer with Yes or No.,Binary,['Yes'],earthquake,medic,,situational_awareness,SA-2,
+imgq-1473,img-524,Are there any visible debris completely blocking human access to the building? Answer with Yes or No.,Binary,['No'],earthquake,medic,,situational_awareness,SA-4,
+imgq-1500,img-537,What type of building is damaged? Select all that apply.,Multiple-Choice,['B'],earthquake,medic,,situational_awareness,SA-2,"{'A': 'Residential house', 'B': 'Church', 'C': 'School', 'D': 'Hospital'}"
+imgq-1526,img-549,Is the debris blocking access to damaged area? Answer with Yes or No.,Binary,['Yes'],earthquake,medic,South Asia,situational_awareness,SA-4,
+imgq-1527,img-549,What type of disaster is depicted in the image? Select all that apply.,Multiple-Choice,['A'],earthquake,medic,South Asia,situational_awareness,SA-1,"{'A': 'Earthquake', 'B': 'Flood', 'C': 'Fire', 'D': 'Hurricane'}"
+imgq-1528,img-549,What is the condition of the archway in the image? Select all that apply.,Multiple-Choice,['A'],earthquake,medic,South Asia,situational_awareness,SA-2,"{'A': 'Intact', 'B': 'Partially damaged', 'C': 'Collapsed', 'D': 'Missing entirely'}"
+imgq-1573,img-565,What is the condition of the buildings behind the tree? Select all that apply.,Multiple-Choice,['C'],earthquake,medic,South Asia,situational_awareness,SA-2,"{'A': 'Completely collapsed', 'B': 'Partially damaged', 'C': 'Intact', 'D': 'Under construction'}"
+imgq-1586,img-570,Are there people visible searching through the debris? Answer with Yes or No.,Binary,['Yes'],earthquake,medic,Europe,situational_awareness,SA-6,
+imgq-1587,img-570,Is there a collapsed building visible in the image? Answer with Yes or No.,Binary,['Yes'],earthquake,medic,Europe,situational_awareness,SA-2,
+imgq-1588,img-570,Are there any vehicles visible in the foreground? Answer with Yes or No.,Binary,['Yes'],earthquake,medic,Europe,situational_awareness,SA-6,
+imgq-1589,img-570,What type of disaster is depicted in the image? Select all that apply.,Multiple-Choice,['A'],earthquake,medic,Europe,situational_awareness,SA-1,"{'A': 'Earthquake', 'B': 'Flood', 'C': 'Tornado', 'D': 'Wildfire'}"
+imgq-1590,img-570,What actions are people performing in the image? Select all that apply.,Multiple-Choice,['A' 'B' 'C' 'D'],earthquake,medic,Europe,Other Useful Information,OT-1,"{'A': 'Searching for survivors', 'B': 'Clearing debris', 'C': 'Observing ongoing activities', 'D': 'Having conversation'}"
+imgq-1609,img-576,What is the condition of the building in the image? Select all that apply.,Multiple-Choice,['A'],earthquake,medic,Europe,situational_awareness,SA-2,"{'A': 'Collapsed', 'B': 'Partially damaged', 'C': 'Intact', 'D': 'Under construction'}"
+imgq-1610,img-576,Name an object used by responders for rescue efforts. Answer with one or two words.? Answer with one or two words.,Open-Ended,['Ladder' 'Crane'],earthquake,medic,Europe,actionable_task,AT-1,
+imgq-1620,img-580,Are there collapsed buildings visible in the image? Answer with Yes or No.,Binary,['Yes'],earthquake,medic,Europe,situational_awareness,SA-2,
+imgq-1621,img-580,Is there debris blocking the road? Answer with Yes or No.,Binary,['Yes'],earthquake,medic,Europe,situational_awareness,SA-4,
+imgq-1622,img-580,Are power lines damaged or leaning? Answer with Yes or No.,Binary,['Yes'],earthquake,medic,Europe,situational_awareness,SA-3,
+imgq-1623,img-580,What type of disaster is depicted in the image? Select all that apply.,Multiple-Choice,['A'],earthquake,medic,Europe,situational_awareness,SA-1,"{'A': 'Earthquake', 'B': 'Flood', 'C': 'Tornado', 'D': 'Wildfire'}"
+imgq-1624,img-580,Which objects are visible in the image? Select all that apply.,Multiple-Choice,['A' 'B' 'C'],earthquake,medic,Europe,situational_awareness,SA-2,"{'A': 'Collapsed buildings', 'B': 'Debris', 'C': 'Damaged power lines', 'D': 'Flooded streets'}"
+imgq-1625,img-580,What is the condition of the road? Select all that apply.,Multiple-Choice,['A' 'D'],earthquake,medic,Europe,situational_awareness,SA-2,"{'A': 'Blocked by debris', 'B': 'Flooded', 'C': 'Intact and clear', 'D': 'Cracked or damaged'}"
+imgq-1626,img-580,What is blocking the road? Answer with one or two words.,Open-Ended,"['Debris' 'Rubble' 'Collapsed buildings' 'Damaged buildings'
+ 'Collapsed roof' 'Damaged roof' 'Buildings debris' 'Collapsed houses']",earthquake,medic,Europe,situational_awareness,SA-4,
+imgq-1673,img-596,Are there any fallen objects or debris visible in the image? Answer with Yes or No.,Binary,['Yes'],earthquake,medic,South Asia,situational_awareness,SA-2,
+imgq-1674,img-596,What type of place is depicted in the image? Answer with one or two words.,Open-Ended,['Temple' 'Pagoda' 'Historic building' 'Temple complex'],earthquake,medic,South Asia,Other Useful Information,OT-1,
+imgq-1727,img-617,Are there any heavy machines visible? Answer with Yes or No.,Binary,['No'],earthquake,crisismmd,North America,Other Useful Information,OT-1,
+imgq-1728,img-617,What is the likely cause of the damage depicted in the image? Select all that apply.,Multiple-Choice,['B'],earthquake,crisismmd,North America,situational_awareness,SA-1,"{'A': 'Flood', 'B': 'Earthquake', 'C': 'Wildfire', 'D': 'Hurricane'}"
+imgq-1729,img-617,What equipment is visible being used by responders? Select all that apply.,Multiple-Choice,['B'],earthquake,crisismmd,North America,Other Useful Information,OT-1,"{'A': 'Fire hoses', 'B': 'Ladders', 'C': 'Boats', 'D': 'Helicopters'}"
+imgq-1730,img-617,Name an object blocking the view. Answer with one or two words.? Answer with one or two words.,Open-Ended,['Wires' 'Cables' 'Electric wires' 'Power line'],earthquake,crisismmd,North America,Other Useful Information,OT-1,
+imgq-1764,img-630,Is there heavy dust or poor visibility in the area? Answer with Yes or No.,Binary,['Yes'],earthquake,crisismmd,North America,situational_awareness,SA-1,
+imgq-1765,img-630,Are rescue workers present on the site? Answer with Yes or No.,Binary,['Yes'],earthquake,crisismmd,North America,Other Useful Information,OT-1,
+imgq-1766,img-630,What is the primary activity of the people in the image? Select all that apply.,Multiple-Choice,['B'],earthquake,crisismmd,North America,actionable_task,AT-1,"{'A': 'Evacuating', 'B': 'Rescuing', 'C': 'Protesting', 'D': 'Celebrating'}"
+imgq-1817,img-649,Is there a vehicle on fire? Answer with Yes or No.,Binary,['Yes'],wildfire,crisismmd,North America,situational_awareness,SA-1,
+imgq-1818,img-649,What is the condition of the vehicle in the image? Select all that apply.,Multiple-Choice,['C'],wildfire,crisismmd,North America,situational_awareness,SA-6,"{'A': 'Intact', 'B': 'Partially Damaged', 'C': 'On Fire', 'D': 'Submerged'}"
+imgq-1829,img-654,Is there a fire truck visible in the image? Answer with Yes or No.,Binary,['Yes'],wildfire,crisismmd,North America,situational_awareness,SA-6,
+imgq-1830,img-654,What type of disaster is depicted in the image? Select all that apply.,Multiple-Choice,['C'],wildfire,crisismmd,North America,situational_awareness,SA-1,"{'A': 'Flood', 'B': 'Earthquake', 'C': 'Wildfire', 'D': 'Hurricane'}"
+imgq-1831,img-654,What natural element is primarily affected? Answer with one or two words.,Open-Ended,['Trees' 'Forest' 'Bushes' 'Forests'],wildfire,crisismmd,North America,situational_awareness,SA-8,
+imgq-1851,img-662,Are there any standing buildings visible? Answer with Yes or No.,Binary,['No'],wildfire,crisismmd,North America,situational_awareness,SA-2,
+imgq-1852,img-662,What type of disaster is depicted in the image? Select all that apply.,Multiple-Choice,['C'],wildfire,crisismmd,North America,situational_awareness,SA-1,"{'A': 'Flood', 'B': 'Earthquake', 'C': 'Wildfire', 'D': 'Hurricane'}"
+imgq-1853,img-662,What is the condition of the trees in the image? Select all that apply.,Multiple-Choice,['B'],wildfire,crisismmd,North America,situational_awareness,SA-8,"{'A': 'Healthy', 'B': 'Burnt', 'C': 'Flooded', 'D': 'Uprooted'}"
+imgq-1865,img-668,Is there any visible water source in the image? Answer with Yes or No.,Binary,['No'],wildfire,crisismmd,North America,situational_awareness,SA-7,
+imgq-1866,img-668,What type of disaster is depicted in the image? Select all that apply.,Multiple-Choice,['C'],wildfire,crisismmd,North America,situational_awareness,SA-1,"{'A': 'Flood', 'B': 'Earthquake', 'C': 'Wildfire', 'D': 'Tornado'}"
+imgq-1867,img-668,How many people are visible in the image? Select all that apply.,Multiple-Choice,['C'],wildfire,crisismmd,North America,situational_awareness,SA-6,"{'A': 'None', 'B': 'One', 'C': 'Two', 'D': 'Three'}"
+imgq-1883,img-675,Is there any visible water being used to combat the fire? Answer with Yes or No.,Binary,['Yes'],wildfire,crisismmd,North America,situational_awareness,SA-1,
+imgq-1884,img-675,What is the primary action being taken in the image? Select all that apply.,Multiple-Choice,['B'],wildfire,crisismmd,North America,actionable_task,AT-3,"{'A': 'Evacuation', 'B': 'Firefighting', 'C': 'Rescue', 'D': 'Medical Aid'}"
+imgq-1885,img-675,What is the condition of the trees in the image? Select all that apply.,Multiple-Choice,['A' 'B'],wildfire,crisismmd,North America,situational_awareness,SA-8,"{'A': 'Intact', 'B': 'Burning', 'C': 'Flooded', 'D': 'Uprooted'}"
+imgq-1886,img-675,What is the person holding? Answer with one or two words.,Open-Ended,['Hose' 'Water hose' 'Fire hose'],wildfire,crisismmd,North America,Other Useful Information,OT-1,
+imgq-1901,img-682,What type of disaster is depicted in the image? Select all that apply.,Multiple-Choice,['C'],wildfire,crisismmd,North America,situational_awareness,SA-1,"{'A': 'Flood', 'B': 'Earthquake', 'C': 'Fire', 'D': 'Hurricane'}"
+imgq-1902,img-682,What type of area is affected? Answer with one or two words.,Open-Ended,['Residential' 'Residential area'],wildfire,crisismmd,North America,situational_awareness,SA-8,
+imgq-1906,img-685,What type of disaster is depicted in the image? Select all that apply.,Multiple-Choice,['C'],wildfire,crisismmd,North America,situational_awareness,SA-1,"{'A': 'Flood', 'B': 'Earthquake', 'C': 'Wildfire', 'D': 'Tornado'}"
+imgq-1907,img-685,What is the condition of the road in the image? Select all that apply.,Multiple-Choice,['B'],wildfire,crisismmd,North America,situational_awareness,SA-4,"{'A': 'Blocked by debris', 'B': 'Clear', 'C': 'Flooded', 'D': 'Covered in snow'}"
+imgq-1908,img-685,What structure is visible near the fire? Answer with one or two words.,Open-Ended,['Power lines' 'Tower' 'Transmission tower' 'Power line tower'],wildfire,crisismmd,North America,situational_awareness,SA-3,
+imgq-1937,img-699,What type of disaster is depicted in the image? Select all that apply.,Multiple-Choice,['B'],wildfire,crisismmd,North America,situational_awareness,SA-1,"{'A': 'Flood', 'B': 'Wildfire', 'C': 'Earthquake', 'D': 'Tornado'}"
+imgq-1938,img-699,What is the helicopter likely doing in the image? Select all that apply.,Multiple-Choice,['B'],wildfire,crisismmd,North America,actionable_task,AT-3,"{'A': 'Rescue operation', 'B': 'Dropping water', 'C': 'Surveying damage', 'D': 'Transporting supplies'}"
+imgq-1987,img-716,Is there visible structural damage to buildings? Answer with Yes or No.,Binary,['Yes'],hurricane,crisismmd,North America,situational_awareness,SA-2,
+imgq-1988,img-716,How many large buildings are visibly damaged? Select all that apply.,Multiple-Choice,['A'],hurricane,crisismmd,North America,situational_awareness,SA-2,"{'A': 'One', 'B': 'Two', 'C': 'Three', 'D': 'Four'}"
+imgq-1989,img-716,Which part of the large building is damaged? Answer with one or two words.,Open-Ended,['Roof' 'Ceiling' 'Rooftop' 'Right' 'Right part' 'Roof damaged'],hurricane,crisismmd,North America,situational_awareness,SA-2,
+imgq-1990,img-716,What is the primary visible terrain type? Answer with one or two words.,Open-Ended,"['Grass' 'Field' 'Grassland' 'Grass fields' 'Green' 'Grassy terrain'
+ 'Hilly grassland']",hurricane,crisismmd,North America,situational_awareness,SA-8,
+imgq-1991,img-717,Is there visible flooding in the image? Answer with Yes or No.,Binary,['Yes'],hurricane,crisismmd,North America,situational_awareness,SA-1,
+imgq-1992,img-717,What type of disaster is depicted in the image? Select all that apply.,Multiple-Choice,['B'],hurricane,crisismmd,North America,situational_awareness,SA-1,"{'A': 'Earthquake', 'B': 'Flood', 'C': 'Wildfire', 'D': 'Tornado'}"
+imgq-1993,img-717,What type of vehicle is being used for transportation? Select all that apply.,Multiple-Choice,['C'],hurricane,crisismmd,North America,Other Useful Information,OT-1,"{'A': 'Ambulance', 'B': 'Fire Truck', 'C': 'Bulldozer', 'D': 'Helicopter'}"
+imgq-2018,img-726,Is the floodwater level dangerously high? Answer with Yes or No.,Binary,['Yes'],hurricane,crisismmd,North America,situational_awareness,SA-7,
+imgq-2019,img-726,What structure is damaged in the image? Select all that apply.,Multiple-Choice,['B'],hurricane,crisismmd,North America,situational_awareness,SA-2,"{'A': 'Bridge', 'B': 'Gas station', 'C': 'House', 'D': 'School'}"
+imgq-2020,img-726,What is the condition of the roof? Answer with one or two words.,Open-Ended,"['Collapsed' 'Destroyed' 'Damaged' 'Fallen' 'Collapsing'
+ 'Severely damaged']",hurricane,crisismmd,North America,situational_awareness,SA-2,
+imgq-2032,img-731,Is the road blocked? Answer with Yes or No.,Binary,['No'],hurricane,crisismmd,North America,situational_awareness,SA-4,
+imgq-2033,img-731,What type of vehicle is visible in the image? Select all that apply.,Multiple-Choice,['C' 'D'],hurricane,crisismmd,North America,situational_awareness,SA-6,"{'A': 'Ambulance', 'B': 'Fire Truck', 'C': 'Bulldozer', 'D': 'Excavator'}"
+imgq-2034,img-731,What action is most appropriate as a next step? Select all that apply.,Multiple-Choice,['B'],hurricane,crisismmd,North America,actionable_task,AT-2,"{'A': 'Rescue trapped individuals', 'B': 'Initiate carcass disposal', 'C': 'Drain water', 'D': 'Call media personnel'}"
+imgq-2035,img-731,How many animal carcasses require disposal? Answer with one or two words.,Open-Ended,['Two' '2' 'Two animal carcasses' 'Two carcasses'],hurricane,crisismmd,North America,Other Useful Information,OT-1,
+imgq-2095,img-750,Is there visible damage to the power lines? Answer with Yes or No.,Binary,['Yes'],hurricane,crisismmd,North America,situational_awareness,SA-3,
+imgq-2096,img-750,What is the most immediate concern for emergency responders in this scene? Select all that apply.,Multiple-Choice,['B'],hurricane,crisismmd,North America,actionable_task,SA-1,"{'A': 'Crowd control at the gas station', 'B': 'Fuel leakage and electrocution risk', 'C': 'Minor traffic congestion', 'D': 'Road signage visibility'}"
+imgq-2097,img-750,What is the condition of the gas station roof? Select all that apply.,Multiple-Choice,['B'],hurricane,crisismmd,North America,situational_awareness,SA-2,"{'A': 'Intact', 'B': 'Partially damaged', 'C': 'Completely collapsed', 'D': 'Missing'}"
+imgq-2131,img-759,Is the entrance to the building safe? Answer with Yes or No.,Binary,['No'],hurricane,crisismmd,North America,situational_awareness,SA-2,
+imgq-2132,img-759,Are there any emergency vehicles present in the image? Answer with Yes or No.,Binary,['No'],hurricane,crisismmd,North America,situational_awareness,SA-6,
+imgq-2133,img-759,Is there visible damage to the buildings in the image? Answer with Yes or No.,Binary,['No'],hurricane,crisismmd,North America,situational_awareness,SA-2,
+imgq-2134,img-759,What could happen if the pole fully falls? Select all that apply.,Multiple-Choice,['A' 'B' 'C'],hurricane,crisismmd,North America,Other Useful Information,OT-1,"{'A': 'Block entrance', 'B': 'Cause fire', 'C': 'Injure civilians', 'D': 'No effect'}"
+imgq-2137,img-761,Is the road clear? Answer with Yes or No.,Binary,['No'],hurricane,crisismmd,North America,situational_awareness,SA-4,
+imgq-2138,img-761,Is flooding visible in the image? Answer with Yes or No.,Binary,['No'],hurricane,crisismmd,North America,situational_awareness,SA-1,
+imgq-2139,img-761,Are emergency vehicles present? Answer with Yes or No.,Binary,['No'],hurricane,crisismmd,North America,Other Useful Information,OT-1,
+imgq-2140,img-761,What is the condition of the power lines? Select all that apply.,Multiple-Choice,['C'],hurricane,crisismmd,North America,situational_awareness,SA-3,"{'A': 'Intact', 'B': 'Slightly damaged', 'C': 'Severely damaged', 'D': 'Not visible'}"
+imgq-2141,img-761,What type of building is damaged? Answer with one or two words.,Open-Ended,['Residential' 'House' 'Residential buildings' 'Houses'],hurricane,crisismmd,North America,situational_awareness,SA-2,
+imgq-2144,img-763,Are there any people visible in the image? Answer with Yes or No.,Binary,['Yes'],hurricane,crisismmd,North America,situational_awareness,SA-6,
+imgq-2145,img-763,What is the condition of the vegetation in the image? Select all that apply.,Multiple-Choice,['B'],hurricane,crisismmd,North America,Other Useful Information,OT-1,"{'A': 'Intact', 'B': 'Partially damaged', 'C': 'Completely destroyed', 'D': 'Lush and green'}"
+imgq-2146,img-763,What is the primary material of the debris? Answer with one or two words.,Open-Ended,['Wood' 'Metal' 'Wood and metal'],hurricane,crisismmd,North America,Other Useful Information,OT-1,
+imgq-2150,img-765,What type of disaster is depicted in the image? Select all that apply.,Multiple-Choice,['B'],hurricane,crisismmd,North America,situational_awareness,SA-1,"{'A': 'Earthquake', 'B': 'Flood', 'C': 'Wildfire', 'D': 'Tornado'}"
+imgq-2151,img-765,What is the approximate depth of flood waters in the image? Select all that apply.,Multiple-Choice,['B'],hurricane,crisismmd,North America,situational_awareness,SA-7,"{'A': 'between ankle- and knee-level', 'B': 'between knee- and hip-level', 'C': 'between hip- and shoulder-level', 'D': 'above shoulder-level'}"
+imgq-2152,img-765,What is the condition of the vehicle in the image? Select all that apply.,Multiple-Choice,['B'],hurricane,crisismmd,North America,situational_awareness,SA-6,"{'A': 'Undamaged', 'B': 'Partially submerged', 'C': 'On fire', 'D': 'Overturned'}"
+imgq-2160,img-768,Is there traffic on the road? Answer with Yes or No.,Binary,['Yes'],hurricane,crisismmd,North America,Other Useful Information,OT-1,
+imgq-2161,img-768,What are people lining up for? Select all that apply.,Multiple-Choice,['A'],hurricane,crisismmd,North America,situational_awareness,SA-6,"{'A': 'Collect water', 'B': 'Evacuate', 'C': 'Rescue operation', 'D': 'Shopping'}"
+imgq-2181,img-775,Is there visible structural damage to power lines? Answer with Yes or No.,Binary,['No'],hurricane,crisismmd,North America,situational_awareness,SA-3,
+imgq-2182,img-775,Are there any emergency vehicles present? Answer with Yes or No.,Binary,['No'],hurricane,crisismmd,North America,situational_awareness,SA-6,
+imgq-2183,img-775,What is the approximate depth of flood waters in the image? Select all that apply.,Multiple-Choice,['A'],hurricane,crisismmd,North America,situational_awareness,SA-7,"{'A': 'between ankle- and knee-level', 'B': 'between knee- and hip-level', 'C': 'between hip- and shoulder-level', 'D': 'above shoulder-level'}"
+imgq-2184,img-775,What is the condition of the road in the image? Select all that apply.,Multiple-Choice,['B'],hurricane,crisismmd,North America,situational_awareness,SA-4,"{'A': 'Clear', 'B': 'Flooded', 'C': 'Blocked by debris', 'D': 'Covered in snow'}"
+imgq-2235,img-790,Are there any visible signs of structural damage to the buildings? Answer with Yes or No.,Binary,['Yes'],hurricane,crisismmd,North America,situational_awareness,SA-2,
+imgq-2236,img-790,Is there any debris visible on the streets? Answer with Yes or No.,Binary,['Yes'],hurricane,crisismmd,North America,situational_awareness,SA-4,
+imgq-2237,img-790,What is the primary condition of the roofs in the image? Select all that apply.,Multiple-Choice,['B'],hurricane,crisismmd,North America,situational_awareness,SA-2,"{'A': 'Intact', 'B': 'Partially damaged', 'C': 'Completely destroyed', 'D': 'Covered with water'}"
+imgq-2281,img-805,Can vehicles pass through? Answer with Yes or No.,Binary,['No'],hurricane,crisismmd,North America,situational_awareness,SA-4,
+imgq-2282,img-805,What is obstructing the road? Select all that apply.,Multiple-Choice,['C'],hurricane,crisismmd,North America,situational_awareness,SA-4,"{'A': 'Floodwater', 'B': 'Fallen trees', 'C': 'Power lines', 'D': 'Vehicles'}"
+imgq-2283,img-805,What type of infrastructure is damaged? Answer with one or two words.,Open-Ended,['Power lines' 'Utility poles' 'Telephone poles'],hurricane,crisismmd,North America,situational_awareness,SA-3,
+imgq-2284,img-806,Is flooding visible in the image? Answer with Yes or No.,Binary,['Yes'],hurricane,crisismmd,North America,situational_awareness,SA-1,
+imgq-2285,img-806,Are there any fallen trees visible? Answer with Yes or No.,Binary,['No'],hurricane,crisismmd,North America,situational_awareness,SA-2,
+imgq-2286,img-806,What is the primary visible impact on the infrastructure? Select all that apply.,Multiple-Choice,['B'],hurricane,crisismmd,North America,situational_awareness,SA-2,"{'A': 'Collapsed buildings', 'B': 'Flooded streets', 'C': 'Burnt structures', 'D': 'Snow-covered roads'}"
+imgq-2287,img-806,What type of area is affected? Answer with one or two words.,Open-Ended,['Coastal area'],hurricane,crisismmd,North America,situational_awareness,SA-8,
+imgq-2346,img-824,Is there visible structural damage to a building? Answer with Yes or No.,Binary,['Yes'],hurricane,crisismmd,North America,situational_awareness,SA-2,
+imgq-2347,img-824,What is the primary material visible in the debris? Select all that apply.,Multiple-Choice,['B'],hurricane,crisismmd,North America,situational_awareness,SA-2,"{'A': 'Metal', 'B': 'Wood', 'C': 'Concrete', 'D': 'Glass'}"
+imgq-2348,img-824,What type of structure is damaged? Answer with one or two words.,Open-Ended,['House' 'Building' 'Residential building' 'Residential' 'House damage'],hurricane,crisismmd,North America,situational_awareness,SA-2,
+imgq-2349,img-825,Is there visible flooding in the image? Answer with Yes or No.,Binary,['No'],hurricane,crisismmd,North America,situational_awareness,SA-1,
+imgq-2350,img-825,Are there any emergency vehicles present? Answer with Yes or No.,Binary,['No'],hurricane,crisismmd,North America,situational_awareness,SA-6,
+imgq-2351,img-825,Is there any visible damage to buildings? Answer with Yes or No.,Binary,['No'],hurricane,crisismmd,North America,situational_awareness,SA-2,
+imgq-2352,img-825,What is the weather condition in the image? Select all that apply.,Multiple-Choice,['C' 'D'],hurricane,crisismmd,North America,situational_awareness,SA-1,"{'A': 'Sunny', 'B': 'Snowy', 'C': 'Rainy', 'D': 'Cloudy'}"
+imgq-2365,img-829,Is the area overcrowded with people? Answer with Yes or No.,Binary,['No'],hurricane,crisismmd,North America,situational_awareness,SA-6,
+imgq-2366,img-829,What type of facility is being used for shelter? Select all that apply.,Multiple-Choice,['B'],hurricane,crisismmd,North America,situational_awareness,SA-6,"{'A': 'School', 'B': 'Stadium', 'C': 'Hospital', 'D': 'Community Center'}"
+imgq-2367,img-829,What is the primary activity of people in the image? Select all that apply.,Multiple-Choice,['D'],hurricane,crisismmd,North America,Other Useful Information,OT-1,"{'A': 'Sleeping', 'B': 'Evacuating', 'C': 'Gathering supplies', 'D': 'Resting'}"
+imgq-2368,img-829,What is the condition of the area? Select all that apply.,Multiple-Choice,['B'],hurricane,crisismmd,North America,situational_awareness,SA-1,"{'A': 'Flooded', 'B': 'Intact', 'C': 'On fire', 'D': 'Collapsed'}"
+imgq-2369,img-829,What type of beds are people using? Answer with one or two words.,Open-Ended,['Cots' 'Camp beds' 'Cot' 'cot beds' 'Folding cots'],hurricane,crisismmd,North America,Other Useful Information,OT-1,
+imgq-2370,img-830,Is there a fallen tree blocking the road? Answer with Yes or No.,Binary,['No'],hurricane,crisismmd,North America,situational_awareness,SA-4,
+imgq-2371,img-830,Are there any power lines down in the image? Answer with Yes or No.,Binary,['Yes'],hurricane,crisismmd,North America,situational_awareness,SA-3,
+imgq-2372,img-830,What is the primary obstruction on the road? Select all that apply.,Multiple-Choice,['A'],hurricane,crisismmd,North America,situational_awareness,SA-4,"{'A': 'Broken power pole', 'B': 'Fallen tree', 'C': 'Partially damaged bicycle', 'D': 'Rocks'}"
+imgq-2422,img-845,Is there visible damage to the boats? Answer with Yes or No.,Binary,['Yes'],hurricane,crisismmd,North America,situational_awareness,SA-2,
+imgq-2423,img-845,What is the condition of the boats in the image? Select all that apply.,Multiple-Choice,['C'],hurricane,crisismmd,North America,situational_awareness,SA-2,"{'A': 'Intact', 'B': 'Slightly Damaged', 'C': 'Heavily Damaged', 'D': 'Submerged'}"
+imgq-2432,img-849,Is flooding visible in the image? Answer with Yes or No.,Binary,['Yes'],hurricane,crisismmd,North America,situational_awareness,SA-1,
+imgq-2433,img-849,Are there any vehicles submerged in water? Answer with Yes or No.,Binary,['Yes'],hurricane,crisismmd,North America,situational_awareness,SA-6,
+imgq-2434,img-849,What type of disaster is depicted in the image? Select all that apply.,Multiple-Choice,['B'],hurricane,crisismmd,North America,situational_awareness,SA-1,"{'A': 'Earthquake', 'B': 'Flood', 'C': 'Wildfire', 'D': 'Tornado'}"
+imgq-2435,img-849,What is the condition of the roads in the image? Select all that apply.,Multiple-Choice,['C'],hurricane,crisismmd,North America,situational_awareness,SA-4,"{'A': 'Clear', 'B': 'Partially flooded', 'C': 'Completely flooded', 'D': 'Blocked by debris'}"
+imgq-2436,img-850,Is there visible debris on the road? Answer with Yes or No.,Binary,['Yes'],hurricane,crisismmd,North America,situational_awareness,SA-4,
+imgq-2437,img-850,Is the road passable? Answer with Yes or No.,Binary,['Yes'],hurricane,crisismmd,North America,situational_awareness,SA-4,
+imgq-2438,img-850,What is partially blocking the road? Answer with one or two words.,Open-Ended,['Boats' 'Vessels' 'Boat' 'boats debris'],hurricane,crisismmd,North America,situational_awareness,SA-4,
+imgq-2439,img-851,Is the road blocked? Answer with Yes or No.,Binary,['No'],hurricane,crisismmd,North America,situational_awareness,SA-4,
+imgq-2440,img-851,Is there any visible flooding in the image? Answer with Yes or No.,Binary,['No'],hurricane,crisismmd,North America,situational_awareness,SA-1,
+imgq-2441,img-851,What is blocking part of the sidewalk? Select all that apply.,Multiple-Choice,['B'],hurricane,crisismmd,North America,situational_awareness,SA-4,"{'A': 'Car', 'B': 'Boat', 'C': 'Tree', 'D': 'Debris'}"
+imgq-2490,img-866,Is there visible damage to the buildings? Answer with Yes or No.,Binary,['No'],hurricane,crisismmd,North America,situational_awareness,SA-2,
+imgq-2491,img-866,Are there any emergency vehicles present? Answer with Yes or No.,Binary,['No'],hurricane,crisismmd,North America,situational_awareness,SA-6,
+imgq-2492,img-866,What is the condition of the road in the image? Select all that apply.,Multiple-Choice,['C'],hurricane,crisismmd,North America,situational_awareness,SA-4,"{'A': 'Flooded', 'B': 'Blocked by debris', 'C': 'Clear', 'D': 'Covered in snow'}"
+imgq-2493,img-866,What is leaning over the road? Answer with one or two words.,Open-Ended,['Power pole' 'Utility pole' 'Electric pole' 'Pole'],hurricane,crisismmd,North America,situational_awareness,SA-3,
+imgq-2510,img-871,Is there heavy machinery visible in the image? Answer with Yes or No.,Binary,['Yes'],hurricane,crisismmd,North America,Other Useful Information,OT-1,
+imgq-2511,img-871,Is there visible debris blocking the road? Answer with Yes or No.,Binary,['Yes'],hurricane,crisismmd,North America,situational_awareness,SA-4,
+imgq-2512,img-871,What type of vehicle is primarily used for clearing debris? Select all that apply.,Multiple-Choice,['C'],hurricane,crisismmd,North America,actionable_task,AT-2,"{'A': 'Fire Truck', 'B': 'Bulldozer', 'C': 'Excavator', 'D': 'Ambulance'}"
+imgq-2583,img-893,Is there a fire visible in the image? Answer with Yes or No.,Binary,['Yes'],fire,crisismmd,North America,situational_awareness,SA-1,
+imgq-2584,img-893,Are there any emergency vehicles present? Answer with Yes or No.,Binary,['No'],fire,crisismmd,North America,situational_awareness,SA-6,
+imgq-2585,img-893,What type of facility is affected by the disaster? Select all that apply.,Multiple-Choice,['B'],fire,crisismmd,North America,situational_awareness,SA-2,"{'A': 'Residential', 'B': 'Industrial', 'C': 'Commercial', 'D': 'Agricultural'}"
+imgq-2586,img-893,What is the main hazard present? Answer with one or two words.,Open-Ended,['Fire' 'Flames' 'Fire hazard' 'Fire explosion'],fire,crisismmd,North America,situational_awareness,SA-1,
+imgq-2587,img-894,Is flooding visible in the image? Answer with Yes or No.,Binary,['Yes'],flood,crisismmd,North America,situational_awareness,SA-1,
+imgq-2588,img-894,Are emergency vehicles present? Answer with Yes or No.,Binary,['No'],flood,crisismmd,North America,Other Useful Information,OT-1,
+imgq-2589,img-894,What structure is visible in the background? Answer with one or two words.,Open-Ended,['Bridge' 'Overpass' 'Bridge overpass' 'overpass bridge'],flood,crisismmd,North America,situational_awareness,SA-2,
+imgq-2590,img-894,What time of day does the image suggest? Answer with one or two words.,Open-Ended,['Night' 'Evening' 'Nighttime' 'Night time' 'Dusk/Night'],flood,crisismmd,North America,Other Useful Information,OT-1,
+imgq-2602,img-897,Is flooding visible in the image? Answer with Yes or No.,Binary,['Yes'],flood,crisismmd,North America,situational_awareness,SA-1,
+imgq-2603,img-897,Are there any emergency vehicles present? Answer with Yes or No.,Binary,['Yes'],flood,crisismmd,North America,situational_awareness,SA-6,
+imgq-2604,img-897,What type of disaster is depicted in the image? Select all that apply.,Multiple-Choice,['B'],flood,crisismmd,North America,situational_awareness,SA-1,"{'A': 'Earthquake', 'B': 'Flood', 'C': 'Wildfire', 'D': 'Tornado'}"
+imgq-2629,img-906,Is flooding visible in the image? Answer with Yes or No.,Binary,['Yes'],flood,crisismmd,North America,situational_awareness,SA-1,
+imgq-2641,img-911,Does the image have poor visibility? Answer with Yes or No.,Binary,['Yes'],hurricane,crisismmd,North America,situational_awareness,SA-1,
+imgq-2642,img-911,Is there evidence of strong winds in the image? Answer with Yes or No.,Binary,['Yes'],hurricane,crisismmd,North America,situational_awareness,SA-1,
+imgq-2662,img-917,Is flooding visible in the image? Answer with Yes or No.,Binary,['Yes'],hurricane,crisismmd,North America,situational_awareness,SA-1,
+imgq-2663,img-917,Are there any vehicles submerged in water? Answer with Yes or No.,Binary,['Yes'],hurricane,crisismmd,North America,situational_awareness,SA-6,
+imgq-2664,img-917,Are there any houses affected by the flooding? Answer with Yes or No.,Binary,['Yes'],hurricane,crisismmd,North America,situational_awareness,SA-2,
+imgq-2665,img-917,Which of the following is true about the image (select all that apply)? Select all that apply.,Multiple-Choice,['A' 'D'],hurricane,crisismmd,North America,situational_awareness,SA-7,"{'A': 'Water level is above tire level for the vehicles', 'B': 'The street sign is fallen', 'C': 'There are stranded vehicles on the bridge', 'D': 'There are houses submerged in water'}"
+imgq-2666,img-918,Are any buildings affected by the floodwater? Answer with Yes or No.,Binary,['Yes'],flood,crisismmd,North America,situational_awareness,SA-2,
+imgq-2667,img-918,Are there any vehicles stranded on the road? Answer with Yes or No.,Binary,['Yes'],flood,crisismmd,North America,situational_awareness,SA-6,
+imgq-2668,img-918,Which of the following statements is not true about the image? Select all that apply.,Multiple-Choice,['B' 'C'],flood,crisismmd,North America,Other Useful Information,OT-1,"{'A': 'The image shows severe flooding impacting infrastructure and buildings', 'B': 'The scene shows a dry area with no water present', 'C': 'All buildings are not submerged in water', 'D': 'Multiple vehicles are visible on the highway/bridge.'}"
+imgq-2674,img-921,Is there a vehicle submerged in water? Answer with Yes or No.,Binary,['Yes'],flood,crisismmd,North America,situational_awareness,SA-6,
+imgq-2675,img-921,Is the water level above the roof of the vehicle? Answer with Yes or No.,Binary,['Yes'],flood,crisismmd,North America,situational_awareness,SA-7,
+imgq-2676,img-921,Are there any visible people in the image? Answer with Yes or No.,Binary,['No'],flood,crisismmd,North America,situational_awareness,SA-6,
+imgq-2677,img-921,What is the condition of the water in the image? Select all that apply.,Multiple-Choice,['B'],flood,crisismmd,North America,situational_awareness,SA-7,"{'A': 'Clear', 'B': 'Muddy', 'C': 'Frozen', 'D': 'Foamy'}"
+imgq-2705,img-929,Are there any vehicles submerged in the image? Answer with Yes or No.,Binary,['No'],hurricane,crisismmd,North America,situational_awareness,SA-6,
+imgq-2706,img-929,Is there a bridge damaged or collapsed? Answer with Yes or No.,Binary,['No'],hurricane,crisismmd,North America,situational_awareness,SA-2,
+imgq-2707,img-929,What is the condition of the road in the image? Select all that apply.,Multiple-Choice,['C'],hurricane,crisismmd,North America,situational_awareness,SA-4,"{'A': 'Clear', 'B': 'Partially flooded', 'C': 'Completely flooded', 'D': 'Blocked by debris'}"
+imgq-2732,img-937,Are there any vehicles submerged in water? Answer with Yes or No.,Binary,['Yes'],flood,crisismmd,North America,situational_awareness,SA-6,
+imgq-2733,img-937,How many partially submerged vehicles present? Select all that apply.,Multiple-Choice,['D'],flood,crisismmd,North America,situational_awareness,SA-6,"{'A': 'None', 'B': 'Two', 'C': 'Three', 'D': 'Four'}"
+imgq-2734,img-937,Which of the following is not true about the image? Select all that apply.,Multiple-Choice,['C'],flood,crisismmd,North America,Other Useful Information,OT-1,"{'A': 'There is a person submerged in water', 'B': 'Emergency responders are present', 'C': 'The water level for the submerged person is above chest level', 'D': 'The road is flooded'}"
+imgq-2735,img-937,What is the condition of the road in the image? Select all that apply.,Multiple-Choice,['B'],flood,crisismmd,North America,situational_awareness,SA-4,"{'A': 'Clear', 'B': 'Flooded', 'C': 'Blocked by debris', 'D': 'Covered in snow'}"
+imgq-2754,img-943,Are there any people using boats for evacuation? Answer with Yes or No.,Binary,['Yes'],flood,crisismmd,North America,situational_awareness,SA-6,
+imgq-2755,img-943,Are there any vehicles that are almost fully submerged in water? Answer with Yes or No.,Binary,['Yes'],flood,crisismmd,North America,situational_awareness,SA-6,
+imgq-2756,img-943,What is the approximate water level in the scene? Select all that apply.,Multiple-Choice,['A'],flood,crisismmd,North America,situational_awareness,SA-7,"{'A': 'between knee and waist level', 'B': 'between foot and knee level', 'C': 'between chest and neck level', 'D': 'Above chest level'}"
+imgq-2772,img-948,Is there a large fire visible in the image? Answer with Yes or No.,Binary,['Yes'],fire,crisismmd,North America,situational_awareness,SA-1,
+imgq-2773,img-948,Are there any emergency vehicles present? Answer with Yes or No.,Binary,['No'],fire,crisismmd,North America,situational_awareness,SA-6,
+imgq-2774,img-948,What is the primary action that needs to be done by emergency responders? Select all that apply.,Multiple-Choice,['A'],fire,crisismmd,North America,actionable_task,AT-3,"{'A': 'Fire extinguishing', 'B': 'Rescue Operation', 'C': 'Debris removal', 'D': 'Medical aid'}"
+imgq-2783,img-951,Are there any people visible in the image? Answer with Yes or No.,Binary,['No'],flood,crisismmd,North America,situational_awareness,SA-6,
+imgq-2784,img-951,What type of animals are visible? Answer with one or two words.,Open-Ended,['Cows' 'Cattle'],flood,crisismmd,North America,Other Useful Information,OT-1,
+imgq-2785,img-951,What is the condition of the ground? Answer with one or two words.,Open-Ended,['Flooded' 'Wet' 'Wet grass'],flood,crisismmd,North America,situational_awareness,SA-8,
+imgq-2794,img-954,Are there any emergency vehicles present? Answer with Yes or No.,Binary,['No'],hurricane,crisismmd,North America,situational_awareness,SA-6,
+imgq-2795,img-954,What type of objects are primarily visible in the image? Select all that apply.,Multiple-Choice,['A'],hurricane,crisismmd,North America,Other Useful Information,OT-1,"{'A': 'Furniture', 'B': 'Vehicles', 'C': 'Trees', 'D': 'People'}"
+imgq-2796,img-954,What is the condition of the area in the image? Select all that apply.,Multiple-Choice,['B'],hurricane,crisismmd,North America,situational_awareness,SA-2,"{'A': 'Pristine', 'B': 'Cluttered', 'C': 'Flooded', 'D': 'Burned'}"
+imgq-2825,img-962,Is there visible flooding on the road? Answer with Yes or No.,Binary,['No'],hurricane,crisismmd,North America,situational_awareness,SA-1,
+imgq-2826,img-962,Are there any emergency vehicles present? Answer with Yes or No.,Binary,['No'],hurricane,crisismmd,North America,situational_awareness,SA-6,
+imgq-2827,img-962,What is the primary obstacle on the road? Select all that apply.,Multiple-Choice,['B'],hurricane,crisismmd,North America,situational_awareness,SA-4,"{'A': 'Water', 'B': 'Debris', 'C': 'Vehicles', 'D': 'Snow'}"
+imgq-2828,img-962,What is the weather condition in the image? Select all that apply.,Multiple-Choice,['B'],hurricane,crisismmd,North America,situational_awareness,SA-1,"{'A': 'Sunny', 'B': 'Foggy', 'C': 'Snowy', 'D': 'Clear'}"
+imgq-2829,img-962,Name an object blocking the road. Answer with one or two words.? Answer with one or two words.,Open-Ended,['Debris' 'Branches' 'tree branches'],hurricane,crisismmd,North America,situational_awareness,SA-4,
+imgq-2830,img-963,Is the shelter nearly full? Answer with Yes or No.,Binary,['Yes'],flood,crisismmd,North America,Other Useful Information,OT-1,
+imgq-2831,img-963,What is the primary use of the space shown in the image? Select all that apply.,Multiple-Choice,['C'],flood,crisismmd,North America,Other Useful Information,OT-1,"{'A': 'Hospital', 'B': 'School', 'C': 'Shelter', 'D': 'Office'}"
+imgq-2832,img-963,What is the condition of the floor in the image? Select all that apply.,Multiple-Choice,['C'],flood,crisismmd,North America,situational_awareness,SA-7,"{'A': 'Dry', 'B': 'Wet', 'C': 'Flooded', 'D': 'Icy'}"
+imgq-2839,img-966,Is weather causing poor visibility? Answer with Yes or No.,Binary,['Yes'],flood,crisismmd,North America,situational_awareness,SA-1,
+imgq-2840,img-966,Is there any visible debris on the road? Answer with Yes or No.,Binary,['Yes'],flood,crisismmd,North America,situational_awareness,SA-4,
+imgq-2841,img-966,What is the estimated depth of the floodwater? Select all that apply.,Multiple-Choice,['A'],flood,crisismmd,North America,situational_awareness,SA-7,"{'A': 'Ankle-deep', 'B': 'Knee-deep', 'C': 'Waist-deep', 'D': 'Chest-deep'}"
+imgq-2842,img-966,What is the condition of the road in the image? Select all that apply.,Multiple-Choice,['B'],flood,crisismmd,North America,situational_awareness,SA-4,"{'A': 'Clear', 'B': 'Flooded', 'C': 'Blocked by debris', 'D': 'Covered in snow'}"
+imgq-2846,img-968,What is the estimated depth of the floodwater? Select all that apply.,Multiple-Choice,['B'],hurricane,crisismmd,North America,situational_awareness,SA-7,"{'A': 'Ankle-deep', 'B': 'Knee-deep', 'C': 'Waist-deep', 'D': 'Chest-deep'}"
+imgq-2847,img-968,How many people are visible in the image? Select all that apply.,Multiple-Choice,['C'],hurricane,crisismmd,North America,situational_awareness,SA-6,"{'A': 'One', 'B': 'Two', 'C': 'Three', 'D': 'Four'}"
+imgq-2848,img-968,What object are the people using to assist their movement? Select all that apply.,Multiple-Choice,['B'],hurricane,crisismmd,North America,Other Useful Information,OT-1,"{'A': 'Raft', 'B': 'Shopping cart', 'C': 'Bicycle', 'D': 'Wheelchair'}"
+imgq-2849,img-968,What type of area is affected? Answer with one or two words.,Open-Ended,['Street' 'Road'],hurricane,crisismmd,North America,situational_awareness,SA-8,
+imgq-2850,img-969,What type of vehicle is being used for rescue? Select all that apply.,Multiple-Choice,['C'],flood,crisismmd,North America,Other Useful Information,OT-1,"{'A': 'Ambulance', 'B': 'Fire Truck', 'C': 'Military Truck', 'D': 'Helicopter'}"
+imgq-2851,img-969,What is the primary activity occurring in the image? Select all that apply.,Multiple-Choice,['B'],flood,crisismmd,North America,actionable_task,AT-1,"{'A': 'Firefighting', 'B': 'Rescue Operation', 'C': 'Construction', 'D': 'Traffic Control'}"
+imgq-2852,img-969,How many people are wearing life vests? Answer with one or two words.,Open-Ended,['Three' '3' 'Three people'],flood,crisismmd,North America,situational_awareness,SA-6,
+imgq-2885,img-981,Are there any people visible on rooftops? Answer with Yes or No.,Binary,['Yes'],flood,crisismmd,South Asia,situational_awareness,SA-6,
+imgq-2886,img-981,How many people are visible in the rescue boat? Select all that apply.,Multiple-Choice,['C'],flood,crisismmd,South Asia,situational_awareness,SA-6,"{'A': '8', 'B': '9', 'C': '10', 'D': '11'}"
+imgq-2887,img-981,Name all the places humans are visible in this image.? Answer with one or two words.,Open-Ended,['Boat and Rooftop' 'Boat and Roof' 'Boat and House'],flood,crisismmd,South Asia,situational_awareness,SA-6,
+imgq-2925,img-994,Are there any children in this image? Answer with Yes or No.,Binary,['Yes'],flood,crisismmd,South Asia,situational_awareness,SA-6,
+imgq-2926,img-994,Are there any people using boats for transportation? Answer with Yes or No.,Binary,['Yes'],flood,crisismmd,South Asia,situational_awareness,SA-6,
+imgq-2927,img-994,Is it expected to see people traveling with boats on a regular day in this scene? Answer with Yes or No.,Binary,['No'],flood,crisismmd,South Asia,Other Useful Information,OT-1,
+imgq-2928,img-994,What is the condition of the road? Answer with one or two words.,Open-Ended,['Flooded' 'Submerged'],flood,crisismmd,South Asia,situational_awareness,SA-4,
+imgq-2954,img-1003,Is heavy machinery being used in the rescue efforts? Answer with Yes or No.,Binary,['Yes'],landslide,crisismmd,South Asia,actionable_task,AT-1,
+imgq-2955,img-1003,What is the primary activity being conducted in the image? Select all that apply.,Multiple-Choice,['B'],landslide,crisismmd,South Asia,actionable_task,AT-1,"{'A': 'Evacuation', 'B': 'Rescue', 'C': 'Construction', 'D': 'Protest'}"
+imgq-2956,img-1003,What type of machinery is being used? Answer with one or two words.,Open-Ended,['Excavator' 'Digger'],landslide,crisismmd,South Asia,Other Useful Information,OT-1,
+imgq-2969,img-1012,Is everyone in the image wearing a life jacket? Answer with Yes or No.,Binary,['No'],flood,crisismmd,South Asia,Other Useful Information,OT-1,
+imgq-2970,img-1012,How many people are visible in the boat? Select all that apply.,Multiple-Choice,['D'],flood,crisismmd,South Asia,situational_awareness,SA-6,"{'A': 'Two', 'B': 'Four', 'C': 'Six', 'D': 'Eight'}"
+imgq-2971,img-1012,What is the person on the ladder doing? Answer with one or two words.,Open-Ended,['Repairing' 'Fixing'],flood,crisismmd,South Asia,actionable_task,SA-2,
+imgq-2983,img-1019,What type of disaster is depicted in the image? Select all that apply.,Multiple-Choice,['C'],earthquake,incidents1m,,situational_awareness,SA-1,"{'A': 'Flooding', 'B': 'Hurricane', 'C': 'Blizzard', 'D': 'Earthquake'}"
+imgq-2984,img-1019,What is the primary material visible in the debris? Select all that apply.,Multiple-Choice,['A'],earthquake,incidents1m,,situational_awareness,SA-2,"{'A': 'Concrete slabs', 'B': 'Wooden planks', 'C': 'Metal rods', 'D': 'Vehicles'}"
+imgq-2985,img-1020,Is there visible damage to the building? Answer with Yes or No.,Binary,['Yes'],earthquake,incidents1m,,situational_awareness,SA-2,
+imgq-2986,img-1020,What type of disaster is depicted in the image? Select all that apply.,Multiple-Choice,['C'],earthquake,incidents1m,,situational_awareness,SA-1,"{'A': 'Flood', 'B': 'Earthquake', 'C': 'Fire', 'D': 'Hurricane'}"
+imgq-2987,img-1020,What is the condition of the building in the image? Select all that apply.,Multiple-Choice,['C'],earthquake,incidents1m,,situational_awareness,SA-2,"{'A': 'Intact', 'B': 'Partially damaged', 'C': 'Completely destroyed', 'D': 'Under construction'}"
+imgq-3021,img-1028,Is the bridge visibly collapsed? Answer with Yes or No.,Binary,['Yes'],earthquake,incidents1m,,situational_awareness,SA-2,
+imgq-3022,img-1028,Are there vehicles trapped or damaged in the water? Answer with Yes or No.,Binary,['Yes'],earthquake,incidents1m,,situational_awareness,SA-6,
+imgq-3023,img-1028,Are there people visible near the collapsed bridge? Answer with Yes or No.,Binary,['Yes'],earthquake,incidents1m,,situational_awareness,SA-6,
+imgq-3024,img-1028,What objects are visible in the water? Select all that apply.,Multiple-Choice,['A'],earthquake,incidents1m,,situational_awareness,SA-6,"{'A': 'Vehicles', 'B': 'Debris', 'C': 'People', 'D': 'Trees'}"
+imgq-3025,img-1028,What is the condition of the bridge? Select all that apply.,Multiple-Choice,['B'],earthquake,incidents1m,,situational_awareness,SA-2,"{'A': 'Intact', 'B': 'Partially collapsed', 'C': 'Fully collapsed', 'D': 'Under construction'}"
+imgq-3026,img-1028,What type of vehicle is damaged in the water? Answer with one or two words.,Open-Ended,['Truck' 'Lorry'],earthquake,incidents1m,,situational_awareness,SA-6,
+imgq-3063,img-1037,Is there visible structural damage to the ground? Answer with Yes or No.,Binary,['Yes'],earthquake,incidents1m,,situational_awareness,SA-2,
+imgq-3064,img-1037,Are there emergency responders visible in the image? Answer with Yes or No.,Binary,['Yes'],earthquake,incidents1m,,Other Useful Information,OT-1,
+imgq-3085,img-1043,Is there visible structural damage in the image? Answer with Yes or No.,Binary,['Yes'],earthquake,incidents1m,,situational_awareness,SA-2,
+imgq-3086,img-1043,Are there individuals trapped inside the building? Answer with Yes or No.,Binary,['No'],earthquake,incidents1m,,actionable_task,AT-1,
+imgq-3087,img-1043,Is there debris scattered across the floor? Answer with Yes or No.,Binary,['Yes'],earthquake,incidents1m,,situational_awareness,SA-2,
+imgq-3088,img-1044,Is there visible structural damage to a building? Answer with Yes or No.,Binary,['Yes'],earthquake,incidents1m,,situational_awareness,SA-2,
+imgq-3089,img-1044,Are construction vehicles present in the image? Answer with Yes or No.,Binary,['Yes'],earthquake,incidents1m,,situational_awareness,SA-6,
+imgq-3090,img-1044,Is debris blocking the road? Answer with Yes or No.,Binary,['No'],earthquake,incidents1m,,situational_awareness,SA-4,
+imgq-3100,img-1047,Are there collapsed buildings visible in the image? Answer with Yes or No.,Binary,['Yes'],earthquake,incidents1m,,situational_awareness,SA-2,
+imgq-3101,img-1047,Is there debris obstructing the ground? Answer with Yes or No.,Binary,['Yes'],earthquake,incidents1m,,situational_awareness,SA-4,
+imgq-3102,img-1047,Are there emergency responders visible in the image? Answer with Yes or No.,Binary,['No'],earthquake,incidents1m,,Other Useful Information,OT-1,
+imgq-3103,img-1047,What is the primary material visible in the debris? Select all that apply.,Multiple-Choice,['B'],earthquake,incidents1m,,situational_awareness,SA-2,"{'A': 'Wood', 'B': 'Concrete', 'C': 'Metal', 'D': 'Glass'}"
+imgq-3104,img-1047,What type of structure is most damaged? Answer with one or two words.,Open-Ended,['Residential buildings' 'Apartments' 'apartment buildings'],earthquake,incidents1m,,situational_awareness,SA-2,
+imgq-3139,img-1056,Is there visible damage to the road? Answer with Yes or No.,Binary,['Yes'],earthquake,incidents1m,,situational_awareness,SA-2,
+imgq-3140,img-1056,Is the road closed to restrict access? Answer with Yes or No.,Binary,['No'],earthquake,incidents1m,,situational_awareness,SA-5,
+imgq-3141,img-1056,What is the condition of the road? Select all that apply.,Multiple-Choice,['B'],earthquake,incidents1m,,situational_awareness,SA-2,"{'A': 'Intact', 'B': 'Cracked', 'C': 'Flooded', 'D': 'Blocked by debris'}"
+imgq-3142,img-1056,What type of clothing is the person wearing? Answer with one or two words.,Open-Ended,"['High-visibility' 'Safety vest' 'High-visibility vest' 'High-vis jacket'
+ 'High-visibility clothing']",earthquake,incidents1m,,Other Useful Information,OT-1,
+imgq-3179,img-1067,Is there visible structural damage to a building? Answer with Yes or No.,Binary,['Yes'],earthquake,incidents1m,,situational_awareness,SA-2,
+imgq-3180,img-1067,Are there any objects blocking the road? Answer with Yes or No.,Binary,['No'],earthquake,incidents1m,,situational_awareness,SA-4,
+imgq-3181,img-1067,What type of disaster is depicted in the image? Select all that apply.,Multiple-Choice,['A'],earthquake,incidents1m,,situational_awareness,SA-1,"{'A': 'Earthquake', 'B': 'Flood', 'C': 'Tornado', 'D': 'Wildfire'}"
+imgq-3182,img-1067,How many buildings are visibly damaged? Answer with one or two words.,Open-Ended,['One' '1' 'One building'],earthquake,incidents1m,,situational_awareness,SA-2,
+imgq-3183,img-1067,What time of day is depicted in the image? Answer with one or two words.,Open-Ended,['Night' 'Evening' 'Night time' 'Nighttime'],earthquake,incidents1m,,Other Useful Information,OT-1,
+imgq-3202,img-1073,Is heavy machinery visible in the image? Answer with Yes or No.,Binary,['Yes'],earthquake,incidents1m,,Other Useful Information,OT-1,
+imgq-3203,img-1073,What is the condition of the ground in the image? Select all that apply.,Multiple-Choice,['B'],earthquake,incidents1m,,situational_awareness,SA-8,"{'A': 'Dry', 'B': 'Muddy', 'C': 'Flooded', 'D': 'Rocky'}"
+imgq-3232,img-1081,Is there visible damage to the road infrastructure? Answer with Yes or No.,Binary,['Yes'],earthquake,incidents1m,,situational_awareness,SA-2,
+imgq-3233,img-1081,Are there vehicles trapped in the collapsed area? Answer with Yes or No.,Binary,['Yes'],earthquake,incidents1m,,situational_awareness,SA-6,
+imgq-3234,img-1081,Are emergency responders visible in the image? Answer with Yes or No.,Binary,['Yes'],earthquake,incidents1m,,Other Useful Information,OT-1,
+imgq-3258,img-1091,Is there visible debris blocking the road? Answer with Yes or No.,Binary,['No'],storm,incidents1m,,situational_awareness,SA-4,
+imgq-3259,img-1091,Are emergency responders visible in the image? Answer with Yes or No.,Binary,['Yes'],storm,incidents1m,,Other Useful Information,OT-1,
+imgq-3260,img-1091,What type of structure is damaged? Answer with one or two words.,Open-Ended,['House' 'Residential building'],storm,incidents1m,,situational_awareness,SA-2,
+imgq-3261,img-1092,Are there any collapsed buildings visible in the image? Answer with Yes or No.,Binary,['Yes'],earthquake,incidents1m,,situational_awareness,SA-2,
+imgq-3262,img-1092,Are there any emergency responders visible in the image? Answer with Yes or No.,Binary,['No'],earthquake,incidents1m,,Other Useful Information,OT-1,
+imgq-3263,img-1092,What is the primary condition of the buildings in the image? Select all that apply.,Multiple-Choice,['C'],earthquake,incidents1m,,situational_awareness,SA-2,"{'A': 'Intact', 'B': 'Partially damaged', 'C': 'Collapsed', 'D': 'Burned'}"
+imgq-3264,img-1092,What type of structure is damaged? Answer with one or two words.,Open-Ended,['House' 'Residential building'],earthquake,incidents1m,,situational_awareness,SA-2,
+imgq-3272,img-1095,Is there visible debris obstructing the road? Answer with Yes or No.,Binary,['Yes'],earthquake,incidents1m,,situational_awareness,SA-4,
+imgq-3273,img-1095,Is the building in the image damaged? Answer with Yes or No.,Binary,['No'],earthquake,incidents1m,,situational_awareness,SA-2,
+imgq-3285,img-1099,Is there visible damage to buildings in the image? Answer with Yes or No.,Binary,['Yes'],earthquake,incidents1m,,situational_awareness,SA-2,
+imgq-3286,img-1099,Is debris present along the shoreline? Answer with Yes or No.,Binary,['Yes'],earthquake,incidents1m,,situational_awareness,SA-8,
+imgq-3287,img-1099,What type of structure is most affected? Answer with one or two words.,Open-Ended,['Houses' 'Homes' 'Residential buildings' 'Coastal homes'],earthquake,incidents1m,,situational_awareness,SA-2,
+imgq-3288,img-1100,Is there visible structural damage to buildings? Answer with Yes or No.,Binary,['Yes'],earthquake,incidents1m,,situational_awareness,SA-2,
+imgq-3289,img-1100,Is debris blocking the road? Answer with Yes or No.,Binary,['No'],earthquake,incidents1m,,situational_awareness,SA-4,
+imgq-3372,img-1124,Is there a fallen tree visible in the image? Answer with Yes or No.,Binary,['Yes'],storm,incidents1m,,situational_awareness,SA-2,
+imgq-3373,img-1124,Is the house in the image visibly damaged? Answer with Yes or No.,Binary,['No'],storm,incidents1m,,situational_awareness,SA-2,
+imgq-3374,img-1124,Is snow covering the ground in the image? Answer with Yes or No.,Binary,['Yes'],storm,incidents1m,,situational_awareness,SA-1,
+imgq-3375,img-1124,What is the primary object obstructing the area? Select all that apply.,Multiple-Choice,['A'],storm,incidents1m,,situational_awareness,SA-4,"{'A': 'Fallen tree', 'B': 'Floodwater', 'C': 'Debris', 'D': 'Vehicle'}"
+imgq-3376,img-1124,What is the condition of the house in the image? Select all that apply.,Multiple-Choice,['C'],storm,incidents1m,,situational_awareness,SA-2,"{'A': 'Severely damaged', 'B': 'Partially damaged', 'C': 'Intact', 'D': 'Collapsed'}"
+imgq-3377,img-1124,What type of weather condition is visible? Answer with one or two words.,Open-Ended,['Snow' 'Winter'],storm,incidents1m,,situational_awareness,SA-1,
+imgq-3379,img-1126,Is heavy snow visible in the image? Answer with Yes or No.,Binary,['Yes'],storm,incidents1m,,situational_awareness,SA-1,
+imgq-3380,img-1126,Are vehicles obstructed by snow? Answer with Yes or No.,Binary,['Yes'],storm,incidents1m,,situational_awareness,SA-4,
+imgq-3381,img-1126,Are road conditions hazardous for driving? Answer with Yes or No.,Binary,['Yes'],storm,incidents1m,,situational_awareness,SA-4,
+imgq-3382,img-1126,What type of disaster is depicted in the image? Select all that apply.,Multiple-Choice,['C'],storm,incidents1m,,situational_awareness,SA-1,"{'A': 'Flooding', 'B': 'Wildfire', 'C': 'Snowstorm', 'D': 'Earthquake'}"
+imgq-3383,img-1126,What is the visibility condition in the image? Select all that apply.,Multiple-Choice,['C'],storm,incidents1m,,situational_awareness,SA-1,"{'A': 'Clear', 'B': 'Moderate', 'C': 'Low', 'D': 'High'}"
+imgq-3384,img-1126,What type of weather condition is present? Answer with one or two words.,Open-Ended,['Snowstorm' 'Blizzard' 'Heavy snow' 'Snowy'],storm,incidents1m,,situational_awareness,SA-1,
+imgq-3419,img-1135,Are there any visible signs of damage to the train? Answer with Yes or No.,Binary,['No'],storm,incidents1m,,situational_awareness,SA-2,
+imgq-3420,img-1135,Are the utility poles visibly damaged in the image? Answer with Yes or No.,Binary,['No'],storm,incidents1m,,situational_awareness,SA-3,
+imgq-3421,img-1135,What type of disaster is depicted in the image? Select all that apply.,Multiple-Choice,['B'],storm,incidents1m,,situational_awareness,SA-1,"{'A': 'Flooding', 'B': 'Snowstorm', 'C': 'Earthquake', 'D': 'Wildfire'}"
+imgq-3422,img-1136,Are emergency responders visible? Answer with Yes or No.,Binary,['No'],flood,incidents1m,,Other Useful Information,OT-1,
+imgq-3423,img-1136,Is access to the area blocked by water? Answer with Yes or No.,Binary,['Yes'],flood,incidents1m,,situational_awareness,SA-4,
+imgq-3424,img-1136,Is debris obstructing the area? Answer with Yes or No.,Binary,['Yes'],flood,incidents1m,,situational_awareness,SA-4,
+imgq-3425,img-1136,What is the condition of the buildings in the image? Select all that apply.,Multiple-Choice,['B'],flood,incidents1m,,situational_awareness,SA-2,"{'A': 'Intact', 'B': 'Partially damaged', 'C': 'Collapsed', 'D': 'Under construction'}"
+imgq-3426,img-1136,What is the approximate depth of the water? Answer with one or two words.,Open-Ended,"['Ankle deep' 'Ankle level' 'Low' 'Surface-level' 'Edge-level'
+ 'Light depth']",flood,incidents1m,,situational_awareness,SA-7,
+imgq-3431,img-1138,Is the water depth above tire level for vehicles? Answer with Yes or No.,Binary,['Yes'],flood,incidents1m,,situational_awareness,SA-7,
+imgq-3432,img-1138,Is access to the area blocked by water? Answer with Yes or No.,Binary,['Yes'],flood,incidents1m,,situational_awareness,SA-4,
+imgq-3433,img-1138,Is there a visible water rescue operation underway? Answer with Yes or No.,Binary,['No'],flood,incidents1m,,situational_awareness,SA-6,
+imgq-3434,img-1138,How many vehicles are visible in the flooded area? Select all that apply.,Multiple-Choice,['C'],flood,incidents1m,,situational_awareness,SA-6,"{'A': '2', 'B': '3', 'C': '4', 'D': '5'}"
+imgq-3440,img-1140,Are there any people inside the submerged vehicles? Answer with Yes or No.,Binary,['No'],flood,incidents1m,,situational_awareness,SA-6,
+imgq-3441,img-1140,What is the water level relative to the car? Select all that apply.,Multiple-Choice,['B'],flood,incidents1m,,situational_awareness,SA-7,"{'A': 'Below tire level', 'B': 'Between tire and door level', 'C': 'Between door and window level', 'D': 'Above window level'}"
+imgq-3442,img-1140,Which of the following statements are true about the image? Select all that apply.,Multiple-Choice,['C'],flood,incidents1m,,situational_awareness,SA-7,"{'A': 'The vehicles are floating', 'B': 'The signs are warning before the flood zone', 'C': 'The signs are partially submerged', 'D': 'There are people inside the vehicles'}"
+imgq-3468,img-1147,Is the flooding chest-deep for a human? Answer with Yes or No.,Binary,['No'],flood,incidents1m,,situational_awareness,SA-7,
+imgq-3469,img-1147,What is the rescue priority in this scene? Select all that apply.,Multiple-Choice,['A' 'B'],flood,incidents1m,,Other Useful Information,OT-1,"{'A': 'None apparent', 'B': 'Monitor situation', 'C': 'Immediate rescue needed', 'D': 'Mass rescue operation needed'}"
+imgq-3470,img-1147,What type of building is visible in the image? Select all that apply.,Multiple-Choice,['B'],flood,incidents1m,,situational_awareness,SA-2,"{'A': 'Residential', 'B': 'Commercial', 'C': 'Industrial', 'D': 'Government'}"
+imgq-3471,img-1147,How many submerged bicycles are visible? Answer with one or two words.,Open-Ended,['Five' '5' 'Five bicycles' 'Five bikes'],flood,incidents1m,,situational_awareness,SA-6,
+imgq-3492,img-1153,Is flooding visible in the image? Answer with Yes or No.,Binary,['Yes'],flood,incidents1m,,situational_awareness,SA-1,
+imgq-3493,img-1153,Is the depth of the floodwater ankle-deep? Answer with Yes or No.,Binary,['Yes'],flood,incidents1m,,situational_awareness,SA-7,
+imgq-3494,img-1153,Is the building in the image visibly affected by the flood? Answer with Yes or No.,Binary,['No'],flood,incidents1m,,situational_awareness,SA-2,
+imgq-3495,img-1153,What is the primary action of the people in the image? Select all that apply.,Multiple-Choice,['A'],flood,incidents1m,,Other Useful Information,OT-1,"{'A': 'Evacuating', 'B': 'Rescuing others', 'C': 'Standing still', 'D': 'Driving vehicles'}"
+imgq-3496,img-1154,Are there people standing in the floodwater? Answer with Yes or No.,Binary,['Yes'],flood,incidents1m,,situational_awareness,SA-6,
+imgq-3497,img-1154,Is there visible damage to the buildings in the background? Answer with Yes or No.,Binary,['No'],flood,incidents1m,,situational_awareness,SA-2,
+imgq-3498,img-1154,What is the water level relative to the people standing in the flood? Select all that apply.,Multiple-Choice,['B'],flood,incidents1m,,situational_awareness,SA-7,"{'A': 'Ankle-deep', 'B': 'Knee-deep', 'C': 'Waist-deep', 'D': 'Chest-deep'}"
+imgq-3611,img-1186,Are residential buildings submerged in water? Answer with Yes or No.,Binary,['Yes'],flood,incidents1m,,situational_awareness,SA-2,
+imgq-3612,img-1186,Are there any visible roads affected by the flood? Answer with Yes or No.,Binary,['Yes'],flood,incidents1m,,situational_awareness,SA-2,
+imgq-3622,img-1189,Are the submerged vehicles in the image operable? Answer with Yes or No.,Binary,['No'],flood,incidents1m,,Other Useful Information,OT-1,
+imgq-3623,img-1189,Are there any vehicles submerged in water? Answer with Yes or No.,Binary,['Yes'],flood,incidents1m,,situational_awareness,SA-6,
+imgq-3624,img-1189,How many almost fully submerged vehicles are visible in the flooded area? Select all that apply.,Multiple-Choice,['B'],flood,incidents1m,,situational_awareness,SA-6,"{'A': '1', 'B': '2', 'C': '3', 'D': '4'}"
+imgq-3632,img-1192,Are there any buildings partially submerged in water? Answer with Yes or No.,Binary,['Yes'],flood,incidents1m,,situational_awareness,SA-2,
+imgq-3633,img-1192,Are there any visible vehicles in the image? Answer with Yes or No.,Binary,['No'],flood,incidents1m,,situational_awareness,SA-6,
+imgq-3634,img-1192,What type of structure is visible next to the house? Select all that apply.,Multiple-Choice,['B'],flood,incidents1m,,Other Useful Information,OT-1,"{'A': 'Garage', 'B': 'Carport', 'C': 'Shed', 'D': 'Barn'}"
+imgq-3689,img-1207,Are vehicles submerged in water? Answer with Yes or No.,Binary,['Yes'],flood,incidents1m,,situational_awareness,SA-6,
+imgq-3690,img-1207,Are there any visible obstructions blocking the road? Answer with Yes or No.,Binary,['Yes'],flood,incidents1m,,situational_awareness,SA-4,
+imgq-3691,img-1207,How many vehicles are visible in the image? Select all that apply.,Multiple-Choice,['C'],flood,incidents1m,,situational_awareness,SA-6,"{'A': '1', 'B': '2', 'C': '3', 'D': '4 or more'}"
+imgq-3692,img-1207,What is the condition of the vehicles in the image? Select all that apply.,Multiple-Choice,['A' 'B'],flood,incidents1m,,situational_awareness,SA-6,"{'A': 'Fully submerged', 'B': 'Partially submerged', 'C': 'Undamaged', 'D': 'Not visible'}"
+imgq-3693,img-1208,Is snow visible in the image? Answer with Yes or No.,Binary,['Yes'],storm,incidents1m,,situational_awareness,SA-1,
+imgq-3694,img-1208,Are there any emergency vehicles visible? Answer with Yes or No.,Binary,['No'],storm,incidents1m,,situational_awareness,SA-6,
+imgq-3695,img-1209,Is there visible smoke coming from the building? Answer with Yes or No.,Binary,['Yes'],fire,incidents1m,,situational_awareness,SA-1,
+imgq-3696,img-1209,Are there any emergency responders visible in the image? Answer with Yes or No.,Binary,['Yes'],fire,incidents1m,,Other Useful Information,OT-1,
+imgq-3697,img-1209,What is the condition of the building in the image? Select all that apply.,Multiple-Choice,['B'],fire,incidents1m,,situational_awareness,SA-2,"{'A': 'Intact', 'B': 'Partially damaged', 'C': 'Completely destroyed', 'D': 'Under construction'}"
+imgq-3698,img-1209,What type of structure is visible in the image? Select all that apply.,Multiple-Choice,['A'],fire,incidents1m,,situational_awareness,SA-2,"{'A': 'Residential house', 'B': 'Commercial building', 'C': 'School', 'D': 'Warehouse'}"
+imgq-3699,img-1209,How many floors does the building have? Answer with one or two words.,Open-Ended,['Two' '2' 'Two floors'],fire,incidents1m,,situational_awareness,SA-2,
+imgq-3733,img-1218,Are firefighting vessels actively spraying water? Answer with Yes or No.,Binary,['Yes'],fire,incidents1m,,situational_awareness,SA-1,
+imgq-3734,img-1218,Is the disaster occurring in a marine environment? Answer with Yes or No.,Binary,['Yes'],fire,incidents1m,,situational_awareness,SA-1,
+imgq-3735,img-1218,How many firefighting vessels are visible in the image? Select all that apply.,Multiple-Choice,['D'],fire,incidents1m,,Other Useful Information,OT-1,"{'A': '3', 'B': '4', 'C': '5', 'D': '7'}"
+imgq-3736,img-1218,What is the primary object on fire in the image? Select all that apply.,Multiple-Choice,['A'],fire,incidents1m,,situational_awareness,SA-1,"{'A': 'Oil rig', 'B': 'Ship', 'C': 'Building', 'D': 'Forest'}"
+imgq-3764,img-1226,Is there visible damage to the gas station structure? Answer with Yes or No.,Binary,['Yes'],fire,incidents1m,,situational_awareness,SA-2,
+imgq-3765,img-1226,Are there any vehicles visible in the gas station? Answer with Yes or No.,Binary,['Yes'],fire,incidents1m,,situational_awareness,SA-6,
+imgq-3766,img-1226,What type of business is damaged? Answer with one or two words.,Open-Ended,['Gas station' 'Fuel station'],fire,incidents1m,,situational_awareness,SA-2,
+imgq-3873,img-1252,Are there any emergency responders present in the image? Answer with Yes or No.,Binary,['No'],fire,incidents1m,,Other Useful Information,OT-1,
+imgq-3874,img-1252,Is smoke visible in the image? Answer with Yes or No.,Binary,['Yes'],fire,incidents1m,,situational_awareness,SA-1,
+imgq-3875,img-1252,What is the condition of the building? Select all that apply.,Multiple-Choice,['B'],fire,incidents1m,,situational_awareness,SA-2,"{'A': 'Intact', 'B': 'Partially damaged', 'C': 'Severely damaged', 'D': 'Collapsed'}"
+imgq-3876,img-1252,What is the primary material of the building visible in the image? Select all that apply.,Multiple-Choice,['B'],fire,incidents1m,,situational_awareness,SA-2,"{'A': 'Wood', 'B': 'Brick', 'C': 'Concrete', 'D': 'Metal'}"
+imgq-3985,img-1280,Are there any emergency responders present? Answer with Yes or No.,Binary,['No'],fire,incidents1m,,Other Useful Information,OT-1,
+imgq-3986,img-1280,Are there any vehicles damaged or destroyed in the image? Answer with Yes or No.,Binary,['Yes'],fire,incidents1m,,situational_awareness,SA-6,
+imgq-3987,img-1280,What is the condition of the vehicles in the image? Select all that apply.,Multiple-Choice,['B' 'C'],fire,incidents1m,,situational_awareness,SA-6,"{'A': 'Intact', 'B': 'Damaged', 'C': 'Destroyed', 'D': 'Not visible'}"
+imgq-3988,img-1280,How many vehicles are visible in the image? Answer with one or two words.,Open-Ended,['Two' '2' 'Two vehicles'],fire,incidents1m,,situational_awareness,SA-6,
+imgq-3998,img-1284,What are the objects being used by the firefighters? Select all that apply.,Multiple-Choice,['B' 'C'],fire,incidents1m,,Other Useful Information,OT-1,"{'A': 'Fire extinguisher', 'B': 'Hose', 'C': 'Shovel', 'D': 'Ladder'}"
+imgq-3999,img-1284,What is burning in the image? Answer with one or two words.,Open-Ended,['Vegetation' 'Bushes' 'Shrubs' 'Brush'],fire,incidents1m,,situational_awareness,SA-1,
+imgq-4023,img-1290,Is there a collapsed structure visible in the image? Answer with Yes or No.,Binary,['Yes'],accidents,incidents1m,,situational_awareness,SA-2,
+imgq-4024,img-1290,Is there a need for heavy machinery to clear debris? Answer with Yes or No.,Binary,['Yes'],accidents,incidents1m,,actionable_task,AT-2,
+imgq-4025,img-1290,Which objects are visible in the image? Select all that apply.,Multiple-Choice,['A' 'B' 'C'],accidents,incidents1m,,situational_awareness,SA-6,"{'A': 'School bus', 'B': 'Car', 'C': 'Concrete debris', 'D': 'Emergency vehicle'}"
+imgq-4026,img-1290,What is the condition of the school bus? Select all that apply.,Multiple-Choice,['B'],accidents,incidents1m,,situational_awareness,SA-2,"{'A': 'Undamaged', 'B': 'Partially damaged', 'C': 'Severely damaged', 'D': 'Destroyed'}"
+imgq-4027,img-1290,What type of debris is visible? Answer with one or two words.,Open-Ended,['Concrete' 'Cement' 'Concrete slab' 'concrete debris' 'concrete beam'],accidents,incidents1m,,situational_awareness,SA-2,
+imgq-4052,img-1296,Are there any overturned vehicles visible in the image? Answer with Yes or No.,Binary,['Yes'],accidents,incidents1m,,situational_awareness,SA-6,
+imgq-4053,img-1296,Is the accident site in an urban area? Answer with Yes or No.,Binary,['No'],accidents,incidents1m,,Other Useful Information,OT-1,
+imgq-4054,img-1296,What objects are visible in the image? Select all that apply.,Multiple-Choice,['A' 'B' 'C'],accidents,incidents1m,,situational_awareness,SA-6,"{'A': 'Debris', 'B': 'Emergency Vehicle', 'C': 'Overturned Car', 'D': 'Damaged Trees'}"
+imgq-4055,img-1296,What is the condition of the vehicles in the image? Select all that apply.,Multiple-Choice,['B' 'C'],accidents,incidents1m,,situational_awareness,SA-6,"{'A': 'Undamaged', 'B': 'Damaged', 'C': 'Overturned', 'D': 'Burnt'}"
+imgq-4060,img-1298,Is there a vehicle overturned in the image? Answer with Yes or No.,Binary,['Yes'],accidents,incidents1m,,situational_awareness,SA-6,
+imgq-4061,img-1298,What type of vehicles are visible in the image? Select all that apply.,Multiple-Choice,['A' 'B' 'D'],accidents,incidents1m,,situational_awareness,SA-6,"{'A': 'School bus', 'B': 'Sedan', 'C': 'Pickup truck', 'D': 'Van'}"
+imgq-4062,img-1298,What objects are visible in the debris? Select all that apply.,Multiple-Choice,['A' 'B'],accidents,incidents1m,,situational_awareness,SA-2,"{'A': 'Bricks', 'B': 'Metal parts', 'C': 'Glass shards', 'D': 'Wood pieces'}"
+imgq-4063,img-1298,How many vehicles are involved in the accident? Answer with one or two words.,Open-Ended,['Two' '2' 'Two vehicles' 'Two cars'],accidents,incidents1m,,situational_awareness,SA-6,
+imgq-4082,img-1304,Is there visible damage to the school bus? Answer with Yes or No.,Binary,['Yes'],accidents,incidents1m,,situational_awareness,SA-2,
+imgq-4083,img-1304,What response action is visible in the scene? Select all that apply.,Multiple-Choice,['B'],accidents,incidents1m,,situational_awareness,SA-6,"{'A': 'Firefighting in progress', 'B': 'Emergency responders assessing the accident site', 'C': 'Medical personnel evacuating injured individuals', 'D': 'Road barriers being set up to redirect traffic'}"
+imgq-4084,img-1304,How many emergency responders are visible? Answer with one or two words.,Open-Ended,['Two' '2' 'Two emergency responders' 'Two responders'],accidents,incidents1m,,situational_awareness,SA-6,
+imgq-4095,img-1308,Is there an overturned vehicle visible in the image? Answer with Yes or No.,Binary,['Yes'],accidents,incidents1m,,situational_awareness,SA-6,
+imgq-4096,img-1308,Are police vehicles present in the image? Answer with Yes or No.,Binary,['Yes'],accidents,incidents1m,,situational_awareness,SA-6,
+imgq-4097,img-1308,What is the condition of the bus? Select all that apply.,Multiple-Choice,['B'],accidents,incidents1m,,situational_awareness,SA-6,"{'A': 'Undamaged', 'B': 'Broken windshield', 'C': 'Overturned', 'D': 'On fire'}"
+imgq-4141,img-1319,Are there any vehicles visibly damaged in the image? Answer with Yes or No.,Binary,['Yes'],accidents,incidents1m,,situational_awareness,SA-6,
+imgq-4142,img-1319,Are there any trees or vegetation obstructing the scene? Answer with Yes or No.,Binary,['Yes'],accidents,incidents1m,,situational_awareness,SA-4,
+imgq-4143,img-1319,How many vehicles are visible in the image? Select all that apply.,Multiple-Choice,['C'],accidents,incidents1m,,situational_awareness,SA-6,"{'A': '1', 'B': '2', 'C': '3', 'D': '4'}"
+imgq-4144,img-1319,What part of the building is damaged? Select all that apply.,Multiple-Choice,['A' 'C'],accidents,incidents1m,,situational_awareness,SA-2,"{'A': 'Roof', 'B': 'Windows', 'C': 'Door', 'D': 'Foundation'}"
+imgq-4194,img-1332,Is there a fallen tree obstructing the area? Answer with Yes or No.,Binary,['Yes'],storm,incidents1m,,situational_awareness,SA-4,
+imgq-4195,img-1332,Is the building in the image visibly damaged? Answer with Yes or No.,Binary,['Yes'],storm,incidents1m,,situational_awareness,SA-2,
+imgq-4196,img-1332,Which objects are visible in the image that may require removal for rescue operations? Select all that apply.,Multiple-Choice,['A' 'B' 'C'],storm,incidents1m,,actionable_task,AT-2,"{'A': 'Fallen tree', 'B': 'Damaged vehicle', 'C': 'Debris', 'D': 'Floodwater'}"
+imgq-4197,img-1332,What is the condition of the vehicle in the image? Select all that apply.,Multiple-Choice,['C'],storm,incidents1m,,situational_awareness,SA-6,"{'A': 'Undamaged', 'B': 'Partially damaged', 'C': 'Severely damaged', 'D': 'Not visible'}"
+imgq-4198,img-1332,How many damaged vehicles are visible? Answer with one or two words.,Open-Ended,['One' '1' 'One car' 'One vehicle' 'Single' 'Single car' 'Single vehicle'],storm,incidents1m,,situational_awareness,SA-6,
+imgq-4199,img-1332,What type of building is damaged? Answer with one or two words.,Open-Ended,['House' 'Residential building' 'House damage'],storm,incidents1m,,situational_awareness,SA-2,
+imgq-4200,img-1333,Is there debris scattered on the road? Answer with Yes or No.,Binary,['Yes'],accidents,incidents1m,,situational_awareness,SA-4,
+imgq-4201,img-1333,How many damaged vehicles are visible in the image? Select all that apply.,Multiple-Choice,['C'],accidents,incidents1m,,situational_awareness,SA-6,"{'A': '1', 'B': '2', 'C': '3', 'D': '4'}"
+imgq-4202,img-1333,What objects are visible in the image that could obstruct rescue operations? Select all that apply.,Multiple-Choice,['A' 'B'],accidents,incidents1m,,situational_awareness,SA-4,"{'A': 'Debris', 'B': 'Damaged vehicles', 'C': 'Utility poles', 'D': 'Floodwater'}"
+imgq-4210,img-1336,Is there visible damage to the black car? Answer with Yes or No.,Binary,['Yes'],accidents,incidents1m,,situational_awareness,SA-6,
+imgq-4211,img-1336,Is a motorcycle involved in the accident? Answer with Yes or No.,Binary,['Yes'],accidents,incidents1m,,Other Useful Information,OT-1,
+imgq-4212,img-1336,Are police vehicles present at the scene? Answer with Yes or No.,Binary,['Yes'],accidents,incidents1m,,situational_awareness,SA-6,
+imgq-4213,img-1336,What type of accident is visible in the image? Select all that apply.,Multiple-Choice,['B'],accidents,incidents1m,,situational_awareness,SA-1,"{'A': 'Car collision', 'B': 'Car and motorcycle collision', 'C': 'Pedestrian accident', 'D': 'Truck accident'}"
+imgq-4235,img-1342,Is there a crashed aircraft visible in the image? Answer with Yes or No.,Binary,['Yes'],accidents,incidents1m,,situational_awareness,SA-6,
+imgq-4236,img-1342,Is there active fire visible in the scene? Answer with Yes or No.,Binary,['No'],accidents,incidents1m,,situational_awareness,SA-1,
+imgq-4237,img-1342,Are there any rescue boats visible near the water? Answer with Yes or No.,Binary,['Yes'],accidents,incidents1m,,situational_awareness,SA-6,
+imgq-4238,img-1342,What is the terrain type visible in the image? Select all that apply.,Multiple-Choice,['A' 'D'],accidents,incidents1m,,situational_awareness,SA-8,"{'A': 'Sand', 'B': 'Concrete', 'C': 'Grass', 'D': 'Water'}"
+imgq-4334,img-1370,Is there visible damage to the road? Answer with Yes or No.,Binary,['Yes'],other_disasters,incidents1m,,situational_awareness,SA-2,
+imgq-4335,img-1370,What is the condition of the road in the image? Select all that apply.,Multiple-Choice,['C'],other_disasters,incidents1m,,situational_awareness,SA-2,"{'A': 'Fully intact', 'B': 'Partially damaged', 'C': 'Completely collapsed', 'D': 'Blocked by debris'}"
+imgq-4336,img-1370,What object is being used to mark the damaged area? Select all that apply.,Multiple-Choice,['A' 'B'],other_disasters,incidents1m,,situational_awareness,SA-5,"{'A': 'Barricades', 'B': 'Traffic cones', 'C': 'Warning signs', 'D': 'Police tape'}"
+imgq-4337,img-1370,What type of structure is damaged? Answer with one or two words.,Open-Ended,['Bridge' 'Road' 'Road bridge'],other_disasters,incidents1m,,situational_awareness,SA-2,
+imgq-4338,img-1371,Is there visible road damage in the image? Answer with Yes or No.,Binary,['Yes'],other_disasters,incidents1m,,situational_awareness,SA-2,
+imgq-4339,img-1371,Are there any emergency responders visible in the image? Answer with Yes or No.,Binary,['Yes'],other_disasters,incidents1m,,Other Useful Information,OT-1,
+imgq-4340,img-1371,What is the condition of the road in the foreground? Select all that apply.,Multiple-Choice,['C'],other_disasters,incidents1m,,situational_awareness,SA-2,"{'A': 'Intact', 'B': 'Flooded', 'C': 'Collapsed', 'D': 'Blocked by debris'}"
+imgq-4364,img-1380,Is there visible structural damage to the building? Answer with Yes or No.,Binary,['No'],other,incidents1m,,situational_awareness,SA-2,
+imgq-4365,img-1381,Is there visible flood in residential area the image? Answer with Yes or No.,Binary,['No'],other,incidents1m,,situational_awareness,SA-1,
+imgq-4393,img-1390,Is there a fallen tree blocking the road? Answer with Yes or No.,Binary,['Yes'],other_disasters,incidents1m,,situational_awareness,SA-4,
+imgq-4394,img-1390,Is there visible damage to the surrounding buildings? Answer with Yes or No.,Binary,['No'],other_disasters,incidents1m,,situational_awareness,SA-2,
+imgq-4395,img-1390,What type of disaster is visible in the image? Select all that apply.,Multiple-Choice,['C'],other_disasters,incidents1m,,situational_awareness,SA-1,"{'A': 'Flooding', 'B': 'Earthquake', 'C': 'Fallen Tree', 'D': 'Fire'}"
+imgq-4396,img-1390,What is obstructing the road in the image? Select all that apply.,Multiple-Choice,['B'],other_disasters,incidents1m,,situational_awareness,SA-4,"{'A': 'Debris', 'B': 'Fallen Tree', 'C': 'Floodwater', 'D': 'Vehicle'}"
+imgq-4402,img-1394,Is there structural damage to buildings in the image? Answer with Yes or No.,Binary,['No'],storm,incidents1m,,situational_awareness,SA-2,
