@@ -39,25 +39,42 @@ def analyze_image(image_path):
     prompt_template = """
 You are a disaster-response visual analysis assistant.
 
-Analyze the provided disaster image and answer the following questions
-using only information that can be observed in the image.
+Analyze ONLY what is clearly visible in the image.
 
-Return your answer in this exact format:
+Choose the disaster type from ONLY this list:
 
-Disaster type: <type>
-People visible: <Yes/No/Unclear>
-Infrastructure damage: <Yes/No/Unclear>
-Road passable: <Yes/No/Unclear>
-Major hazards: <short description>
+Fire
+Flood
+Earthquake
+Landslide
+Storm
+Hurricane
+Accident
+Wildfire
+Other
+
+Important classification rules:
+- If flames, burning buildings, active fire, or strong fire/smoke evidence is visible, choose Fire.
+- Choose Flood ONLY when visible water flooding is the main disaster.
+- Do NOT choose Flood just because the image shows a damaged road or damaged building.
+- If there is no clear evidence for a specific disaster, choose Other.
+- Do not invent information that cannot be seen.
+
+Return ONLY the following exact format:
+
+1. <one disaster type from the list>
+2. <Yes/No/Unclear>
+3. <Yes/No/Unclear>
+4. <Yes/No/Unclear>
+5. <short description of major hazards>
 
 Questions:
-1. What type of disaster is visible in the image?
-2. Are there people visible in the image?
-3. Is there visible damage to infrastructure?
+1. What type of disaster is visible?
+2. Are people visible?
+3. Is there visible infrastructure damage?
 4. Is the road or pathway passable?
-5. What major hazards are visible in the image?
+5. What major hazards are visible?
 """
-
     messages = [
         {
             "role": "user",
